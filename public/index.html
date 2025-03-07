@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="https://cdn.glitch.global/59040f8f-2030-41d7-9001-7b81b2a8afc6/favicon3.png?v=1730223654493"/>
+    <title>Configurator AI</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Bootstrap JS Bundle (necesar pentru Toasts) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <!-- Stiluri personalizate -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Script JS -->
+    <script defer src="script.js"></script>
+  </head>
+  <body class="bg-light">
+    <div
+      id="toastContainer"
+      class="toast-container position-fixed top-0 end-0 p-3"
+    ></div>
+    <div class="container-xl py-5 d-flex justify-content-center">
+      <div class="card custom-shadow" style="max-width: 800px; width: 100%">
+        <div class="card-body">
+          <!-- <h1 class="text-center mb-2">Gestionare Texte</h1>  -->
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <div class="dropdown">
+              <button class="dropbtn" onclick="toggleDropdown(event)">
+               <i class="fas fa-bars"></i> Meniu
+                </button>
+              <div id="dropdownMenu" class="dropdown-content">
+                <a href="https://eink.glitch.me/index.html"><i class="fas fa-robot"></i> AI</a>
+                <a href="https://eink.glitch.me/gallery.html"><i class="fas fa-image"></i> Galerie</a>
+                <a href="https://eink.glitch.me/api.html"><i class="fas fa-code"></i> API</a>
+                <a href="https://eink.glitch.me/qr.html"><i class="fas fa-qrcode"></i> QR</a>
+                <a href="https://eink.glitch.me/dashboard.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                <a href="https://eink.glitch.me/screenshot.html"><i class="fas fa-adjust"></i> e-Ink</a>
+              </div>
+            </div>
+
+            <!--   <img id="logo" src="https://cdn.glitch.global/3e476950-e436-4343-9a6b-76aa07b7fed2/vaka_logo.png?v=1739184199435" 
+         alt="Logo" title="Logo aplicație" class="logo-img"> -->
+          </div>
+
+          <!-- Secțiunea pentru introducerea textului -->
+          <div class="mb-4">
+            <!-- <h2 class="h5">Prompt</h2> -->
+            <textarea
+              id="textInput"
+              name="textInput"
+              class="form-control"
+              rows="4"
+              placeholder="Scrie aici promtul... 
+                           
+#minTemp, #maxTemp, #prognoza"
+              autocomplete="off"
+            ></textarea>
+            <div class="d-flex justify-content-start gap-2 mt-3">
+              <button class="btn btn-primary btn-sm" onclick="saveText()">
+                <i class="fas fa-save"></i> Salvează
+              </button>
+              <button
+                class="btn btn-primary btn-sm"
+                onclick="sendTextToChatGPT()"
+              >
+                <i class="fas fa-comments"></i> ChatGPT
+              </button>
+              <button
+                class="btn btn-primary btn-sm"
+                onclick="sendPromptToDalle()"
+              >
+                <i class="fas fa-image"></i> DALL·E
+              </button>
+              <label class="switch"
+                ><input
+                  type="checkbox"
+                  id="toggleModel"
+                  onchange="updateDalleMode()" /><span
+                  class="slider round"
+                ></span
+              ></label>
+            </div>
+          </div>
+
+          <!-- Secțiunea pentru răspunsul ChatGPT -->
+          <div id="chatGPTResponseBox" class="alert alert-secondary">
+            <strong>Răspuns ChatGPT:</strong>
+            <p id="chatGPTResponse">Răspunsul va apărea aici...</p>
+            <button
+              onclick="generateImage()"
+              class="btn btn-sm btn-outline-dark"
+            >
+              DALL·E
+            </button>
+            <button
+              onclick="saveResponse()"
+              class="btn btn-sm btn-outline-dark"
+            >
+              Salvează
+            </button>
+            <button
+              onclick="deleteResponse()"
+              class="btn btn-sm btn-outline-dark"
+            >
+              Șterge
+            </button>
+          </div>
+
+          <!-- Secțiunea pentru lista de texte salvate -->
+          <div class="mb-4">
+            <h2 class="h5">Prompturi salvate</h2>
+            <ul id="textList" class="list-group"></ul>
+          </div>
+
+          <!-- Secțiunea pentru programator -->
+          <div class="mt-4 p-4 border rounded bg-light">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="text-primary">Configurează Programatorul</h5>
+              <button id="upload-btn" class="btn btn-success">
+                <i class="bi bi-image"></i>
+              </button>
+            </div>
+
+            <label class="fw-bold mt-2">Zilele săptămânii:</label>
+            <div class="day-box p-3 border rounded">
+              <div id="daySelector" class="d-flex flex-wrap gap-2">
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input day-checkbox"
+                    id="luni"
+                    value="Luni"
+                  />
+                  <label class="form-check-label" for="luni">Luni</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input day-checkbox"
+                    id="marti"
+                    value="Marți"
+                  />
+                  <label class="form-check-label" for="marti">Marți</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input day-checkbox"
+                    id="miercuri"
+                    value="Miercuri"
+                  />
+                  <label class="form-check-label" for="miercuri"
+                    >Miercuri</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input day-checkbox"
+                    id="joi"
+                    value="Joi"
+                  />
+                  <label class="form-check-label" for="joi">Joi</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input day-checkbox"
+                    id="vineri"
+                    value="Vineri"
+                  />
+                  <label class="form-check-label" for="vineri">Vineri</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input day-checkbox"
+                    id="sambata"
+                    value="Sâmbătă"
+                  />
+                  <label class="form-check-label" for="sambata">Sâmbătă</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input day-checkbox"
+                    id="duminica"
+                    value="Duminică"
+                  />
+                  <label class="form-check-label" for="duminica"
+                    >Duminică</label
+                  >
+                </div>
+              </div>
+            </div>
+
+            <label class="fw-bold mt-3">Ora execuției:</label>
+            <div class="input-group">
+              <span class="input-group-text">
+                <i class="bi bi-clock"></i>
+                <span class="ms-2 text-muted">HH:MM</span>
+              </span>
+              <input
+                type="time"
+                id="scheduleTime"
+                class="form-control text-center"
+                placeholder="Selectează ora"
+              />
+            </div>
+            <button class="btn btn-primary mt-3 w-100" onclick="saveSchedule()">
+              <i class="bi bi-save"></i> Salvează Programul
+            </button>
+          </div>
+
+          <div id="gallery-overlay" class="overlay hidden">
+            <div class="overlay-content">
+              <button id="close-overlay" class="close-btn">&times;</button>
+              <div id="gallery" class="gallery-container"></div>
+            </div>
+          </div>
+
+          <div id="image-container"></div>
+
+          <h1 class="fs-5 mt-5">Programările tale</h1>
+          <div id="schedules-list"></div>
+
+          <!-- Loader pentru generarea imaginii -->
+          <div id="imageLoader" class="text-center d-none mt-2">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Se încarcă...</span>
+            </div>
+          </div>
+
+          <!-- Container pentru imaginea generată -->
+          <div id="generatedImageContainer" class="text-center mt-4">
+            <img
+              id="generatedImage"
+              src="https://eink.glitch.me/generated-image.png"
+              alt="Imagine generată"
+              class="img-fluid"
+            />
+          </div>
+
+          <!-- Butoanele rămân într-un div separat -->
+          <div id="imageButtons" class="text-center mt-3">
+            <input
+              type="file"
+              id="imageUpload"
+              accept="image/*"
+              style="display: none"
+            />
+            <label for="imageUpload" class="btn btn-sm btn-outline-dark"
+              >Încarcă imagine</label
+            >
+            <button id="sendToDashboard" class="btn btn-sm btn-outline-dark">
+              Trimite în dashboard
+            </button>
+            <button id="saveImageBtn" class="btn btn-sm btn-outline-dark">
+              Salvează
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle (JS + Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

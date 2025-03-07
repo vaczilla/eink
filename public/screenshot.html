@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afișare Imagine</title>
+    <style>
+
+        body {
+            padding: 20;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4f4;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            max-width: 600px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer; /* Adăugăm cursor pointer pentru indicarea interactivității */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Imagine principală -->
+    <img src="/public/screenshot-grayscale.png" alt="Imagine Kindle" onclick="goBack()">
+
+    <script>
+        function goBack() {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = "/"; // Pagina implicită dacă nu există un istoric valid
+            }
+        }
+    </script>
+
+</body>
+</html>

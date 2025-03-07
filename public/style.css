@@ -1,0 +1,373 @@
+/* ******************************************************************************
+   START Glitch hello-app default styles
+   
+   The styles in this section do some minimal CSS resets, set default fonts and 
+   colors, and handle the layout for our footer and "Remix on Glitch" button. If
+   you're new to CSS they may seem a little complicated, but you can scroll down
+   to this section's matching END comment to see page-specific styles.
+****************************************************************************** */
+
+/* Default values set as CSS variables */
+:root {
+    --color-bg: #BDC9FF;
+    --color-text-main: #000000;
+    --color-text-header: #2800FF;
+    --color-primary: #AFECE0;
+    --wrapper-height: 87vh;
+    --image-max-width: 300px;
+    --image-margin: 3rem;
+    --font-family: "HK Grotesk";
+    --font-family-header: "HK Grotesk";
+}
+
+/* Import fonts */
+@font-face {
+    font-family: "HK Grotesk";
+    src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027") format("opentype");
+}
+@font-face {
+    font-family: "HK Grotesk";
+    font-weight: bold;
+    src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437") format("opentype");
+}
+
+body {
+    font-family: "HK Grotesk", sans-serif;
+    background-color: var(--color-bg);
+}
+
+/* Page structure */
+.wrapper {
+    min-height: var(--wrapper-height);
+    display: grid;
+    place-items: center;
+    margin: 0 1rem;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* Styling for text */
+p {
+    font-size: 1rem;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for saved text boxes */
+#textList li {
+    margin-bottom: 10px;
+}
+
+.text-container {
+    flex-grow: 1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    padding-right: 5px;
+    max-width: 90%;
+    padding-left: 10px;
+}
+
+/* Logo styling */
+#logo {
+    width: 120px;
+    height: auto;
+    top: 0px;
+    right: 15px;
+
+}
+
+#generatedImage {
+    border-radius: 10px; /* Ajustează valoarea pentru colțuri mai rotunde */
+}
+
+ .dropbtn {
+    background-color: #ffffff;
+    color: black;
+    padding: 12px 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #f2f2f2;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+.dropdown-content a i {
+  margin-right: 8px; /* Spațiere între iconiță și text */
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #10a37f;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 22px;
+  left: 8px;
+  bottom: 7px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(22px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 5px;
+}
+
+.slider.round:before {
+  border-radius: 5%;
+}
+.selectable-text {
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.selected-text {
+    background: #e1f0f4;
+    color: balck;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay.hidden {
+    display: none;
+}
+.overlay-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.image-container {
+    width: 150px; /* Mărește lățimea */
+    height: 150px; /* Mărește înălțimea */
+    border-radius: 8px; /* Adaugă colțuri rotunjite */
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  .image-container:hover {
+    transform: scale(1.1); /* Efect de zoom la hover */
+}
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asigură că imaginea umple containerul fără deformare */
+    border-radius: 8px;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    max-height: 80vh; /* Setează o înălțime maximă */
+    overflow-y: auto; /* Activează scroll vertical */
+    padding: 10px;
+  }
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+#selected-image {
+    display: block;
+    margin-top: 10px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+@media (max-width: 600px) {
+    .image-container {
+        width: 100px; /* Mai mic pentru ecrane mici */
+        height: 100px;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+        .schedule-row {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .schedule-row span {
+            margin-right: 10px;
+        }
+        .schedule-row button {
+            margin-left: 10px;
+        }
+
+/* Containerul pentru lista programărilor */
+#schedules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spațiu între elemente */
+}
+
+/* Fiecare item de programare */
+.schedule-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Coloanele pentru alinierea textului și iconițelor */
+.schedule-item span,
+.schedule-item i {
+    flex-shrink: 0; /* Evită că iconițele și textele să se micșoreze */
+}
+
+/* Coloana pentru indexul programării (numărul) */
+.schedule-item span:first-child {
+    width: 40px; /* Lățimea fixă pentru index (programare 01, 02, ...) */
+    text-align: left;
+}
+
+/* Coloana pentru iconița tipului de programare (text sau imagine) */
+.schedule-item i:first-of-type {
+    width: 20px; /* Lățimea fixă pentru iconița de tip */
+    text-align: left;
+}
+
+/* Coloana pentru ziua și ora */
+.schedule-item span:nth-child(2) {
+    width: 40px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+/* Coloana pentru statusul de executare (check / cross) */
+.schedule-item i:nth-of-type(2) {
+    width: 20px;
+    text-align: left;
+}
+
+/* Coloana pentru butonul de stergere */  
+  .schedule-item button {
+    width: 80px;
+    text-align: center; 
+    color: black; /* Culoare text */
+    border: 1px; 
+    border-color: red;
+    padding: 5px 10px; /* Adaugă padding pentru a face butonul mai mare */
+    border-radius: 5px; /* Colțuri rotunjite */
+}
+
+/* caseta de selectie ora si minute HH:MM */
+.input-group .form-control {
+    height: 50px; /* Setează înălțimea dorită */
+    font-size: 16px; /* Ajustează dimensiunea textului */
+    padding: 5px 10px; /* Ajustează padding-ul pentru a menține textul centrat */
+
+}
+/* boxul din spatele checkbox-urilor de zile */
+.day-box {
+    background-color: #ffffff; /* Gri deschis */
+}
+.no-schedules {
+    text-align: center;
+    font-style: italic;
+    color: #666666;
+    background-color: #f9f9f9;
+    border: 1px dashed #cccccc; /* Stil ușor diferit pentru evidențiere */
+}
+

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="https://cdn.glitch.global/59040f8f-2030-41d7-9001-7b81b2a8afc6/favicon3.png?v=1730223654493"/>
+    <title>Galerie</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    /><link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      .card {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        padding-bottom: 30px;
+      }
+      #logo {
+        width: 130px;
+        height: auto;
+        cursor: pointer;
+      }
+      .dropbtn {
+        background-color: #ffffff;
+        color: black;
+        padding: 12px 16px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .dropbtn:hover,
+      .dropbtn:focus {
+        background-color: #f2f2f2;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 5px;
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      .show {
+        display: block;
+      }
+      .dropdown-content a i {
+        margin-right: 8px;
+      }
+      .result-container {
+        height: 250px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+       }
+
+
+        
+        
+    </style>
+  </head>
+  <body class="bg-light">
+    <div id="toastContainer" class="toast-container position-fixed top-0 end-0 p-3"></div>
+    <div class="container-xl py-5 d-flex justify-content-center">
+      <div class="card custom-shadow" style="max-width: 800px; width: 100%">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <div class="dropdown">
+             <button class="dropbtn" onclick="toggleDropdown(event)">
+              <i class="fas fa-bars"></i> Meniu
+               </button>
+              <div id="dropdownMenu" class="dropdown-content">
+                <a href="https://eink.glitch.me/index.html"><i class="fas fa-robot"></i> AI</a>
+                <a href="https://eink.glitch.me/gallery.html"><i class="fas fa-image"></i> Galerie</a>
+                <a href="https://eink.glitch.me/api.html"><i class="fas fa-code"></i> API</a>
+                <a href="https://eink.glitch.me/qr.html"><i class="fas fa-qrcode"></i> QR</a>
+                <a href="https://eink.glitch.me/dashboard.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                <a href="https://eink.glitch.me/screenshot.html"><i class="fas fa-adjust"></i> e-Ink</a>
+              </div>
+            </div>
+            
+            <!-- Afișare timp de la ultima actualizare -->
+            <div id="time-since-update" style="margin-left: 20px;">
+             <i class="fas fa-clock"></i> <span id="time-text">-- min</span>
+             </div>
+
+            
+              <!-- Container pentru baterie -->
+            <div id="battery-status" class="d-flex align-items-center">
+              <i id="battery-icon" class="fas fa-battery-half"></i>
+              <span>&nbsp;</span> <!-- Adaugă un spațiu -->
+              <span id="battery-level">--%</span>
+            </div>
+            
+            
+            <!-- <img -->
+              <!--  id="logo"
+              src="https://cdn.glitch.global/3e476950-e436-4343-9a6b-76aa07b7fed2/vaka_logo.png?v=1739184199435" 
+              alt="Logo" 
+              title="Logo aplicație" 
+              class="logo-img" 
+            />-->
+          </div>
+          <button class="btn btn-primary btn-sm" ><i class="fas fa-camera"></i> Capturează Screenshot
+          </button>
+          <button class="btn btn-warning btn-sm" ><i class="fas fa-cloud-sun"></i> Update
+          </button>
+          <hr />
+          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-cloud"></i> Meteoblue
+          </button>
+          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-cloud-sun"></i> Baneasa
+          </button>
+          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-cloud"></i> XML
+          </button>
+          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-tasks"></i> Programator
+          </button>
+          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-battery-full"></i> Baterie
+          </button>
+          <div id="resultContainer" class="result-container"></div>
+        </div>
+            <div style="width: 95%; max-width: 800px; margin: auto;">
+              
+        <canvas id="batteryChart"></canvas>
+        <div class="mt-4">
+        <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(7)">Ultimele 7 zile</button>
+        <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(30)">Ultimele 30 zile</button>
+        <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData()">Toate datele</button>
+        </div>
+
+
+    </div>
+      </div>
+    </div>
+    
+    <script>
+      
+document.addEventListener("DOMContentLoaded", function () {
+  function fetchData(apiEndpoint) {
+    fetch(apiEndpoint)
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("resultContainer").innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+      })
+      .catch(() => showToast("Eroare la preluarea datelor", "danger"));
+  }
+
+  function triggerUpdate() {
+    fetch("https://eink.glitch.me/update")
+      .then(response => response.text())
+      .then(text => {
+        showToast(text, "success");
+      })
+      .catch(() => showToast("Eroare de conexiune", "danger"));
+  }
+
+  function captureScreenshot() {
+    fetch("https://eink.glitch.me/screenshot")
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          showToast(data.message, "success");
+        } else {
+          showToast("Eroare la generarea screenshot-ului", "danger");
+        }
+      })
+      .catch(() => showToast("Eroare de conexiune", "danger"));
+  }
+
+  function showToast(message, type = "success") {
+    const toastContainer = document.getElementById("toastContainer");
+    const toast = document.createElement("div");
+    toast.classList.add("toast", "align-items-center", "show", "text-bg-" + type, "border-0");
+    toast.setAttribute("role", "alert");
+    toast.innerHTML = `
+      <div class="d-flex">
+        <div class="toast-body">${message}</div>
+        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"></button>
+      </div>`;
+    toastContainer.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
+  }
+
+  // Asignare evenimente butoanelor
+  document.querySelector(".btn-primary:nth-of-type(1)").addEventListener("click", captureScreenshot);
+  document.querySelector(".btn-warning:nth-of-type(2)").addEventListener("click", triggerUpdate);
+
+  const buttons = document.querySelectorAll(".btn-outline-dark");
+  buttons[0].addEventListener("click", () => fetchData('/API/weather'));
+  buttons[1].addEventListener("click", () => fetchData('/API/baneasa'));
+  buttons[2].addEventListener("click", () => fetchData('/API/xml'));
+  buttons[3].addEventListener("click", () => fetchData('/API/programator'));
+  buttons[4].addEventListener("click", () => fetchData('/battery'));
+});
+     
+      
+ /////////////////////////////////////////////////////////////////////////////////     
+      
+      
+      function toggleDropdown(event) {
+      event.stopPropagation(); // Previne închiderea instantă a meniului
+      document.getElementById("dropdownMenu").classList.toggle("show");
+    }
+
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          let dropdowns = document.getElementsByClassName("dropdown-content");
+          for (let i = 0; i < dropdowns.length; i++) {
+            let openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+      
+ /////////////////////////////////////////////////////////////////////////////////           
+      
+      async function fetchBatteryStatus() {
+  try {
+    const response = await fetch("/battery"); // Înlocuiește cu URL-ul real al API-ului
+    const data = await response.json();
+
+    if (data.length > 0) {
+      const lastEntry = data[data.length - 1]; // Ultima intrare din API
+      const batteryLevel = lastEntry.batteryLevel;
+      const isCharging = lastEntry.isCharging;
+
+      // Actualizează valoarea bateriei în pagină
+      document.getElementById("battery-level").textContent = batteryLevel + "%";
+
+      // Schimbă iconița în funcție de statusul încărcării
+      const batteryIcon = document.getElementById("battery-icon");
+
+      if (isCharging) {
+        batteryIcon.className = "fas fa-battery-full text-success"; // Baterie încărcată
+      } else {
+        if (batteryLevel > 75) batteryIcon.className = "fas fa-battery-full";
+        else if (batteryLevel > 50) batteryIcon.className = "fas fa-battery-three-quarters";
+        else if (batteryLevel > 25) batteryIcon.className = "fas fa-battery-half";
+        else if (batteryLevel > 10) batteryIcon.className = "fas fa-battery-quarter";
+        else batteryIcon.className = "fas fa-battery-empty text-danger"; // Baterie descărcată
+      }
+    }
+  } catch (error) {
+    console.error("Eroare la preluarea nivelului bateriei:", error);
+  }
+}
+
+// Apelează funcția la încărcarea paginii și apoi la fiecare 30 secunde
+fetchBatteryStatus();
+setInterval(fetchBatteryStatus, 30000);
+      
+ /////////////////////////////////////////////////////////////////////////////////           
+      
+async function fetchBatteryData(days = null) {
+    try {
+        const response = await fetch('/battery'); // 🔹 Înlocuiește cu URL-ul API-ului tău
+        const data = await response.json();
+
+        if (!data.length) {
+            console.warn("Nu există date de afișat.");
+            return;
+        }
+
+        // 🔹 Grupăm măsurătorile pe zile și calculăm media nivelului bateriei
+        const dailyData = {};
+        data.forEach(entry => {
+            const date = entry.timestamp.split('T')[0]; // Extragem doar YYYY-MM-DD
+            if (!dailyData[date]) {
+                dailyData[date] = { total: 0, count: 0 };
+            }
+            dailyData[date].total += entry.batteryLevel;
+            dailyData[date].count += 1;
+        });
+
+        // 🔹 Sortăm datele și filtrăm ultimele `days` zile (dacă e specificat)
+        let sortedDates = Object.keys(dailyData).sort((a, b) => new Date(a) - new Date(b));
+
+        if (days !== null) {
+            sortedDates = sortedDates.slice(-days); // Selectează ultimele `days` zile
+        }
+
+        if (!sortedDates.length) {
+            console.warn("Nu sunt suficiente date pentru perioada selectată.");
+            return;
+        }
+
+        // 🔹 Construim array-urile pentru grafic
+        const labels = sortedDates.map(date => {
+            const [year, month, day] = date.split('-'); // Extragem componentele datei
+            return `${day}-${month}`; // Formatare: zi-luna (ex: 08-02)
+        });
+
+        const batteryLevels = sortedDates.map(date => 
+            Math.round(dailyData[date].total / dailyData[date].count)
+        );
+
+        // 🔹 Ștergem graficul existent înainte de a crea unul nou
+        if (window.batteryChart && typeof window.batteryChart.destroy === "function") {
+            window.batteryChart.destroy();
+        }
+
+        // 🔹 Generăm graficul
+        const ctx = document.getElementById('batteryChart').getContext('2d');
+        window.batteryChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Nivel mediu baterie pe zi (%)',
+                    data: batteryLevels,
+                    borderColor: 'rgb(75, 192, 192)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderWidth: 2,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: { beginAtZero: false, suggestedMin: 50, suggestedMax: 100 }
+                }
+            }
+        });
+
+    } catch (error) {
+        console.error("Eroare la preluarea datelor:", error);
+    }
+}
+
+// 🔹 Apelăm funcția inițial pentru toate datele
+fetchBatteryData();
+      
+      
+ /////////////////////////////////////////////////////////////////////////////////   
+      
+async function updateTimeSinceLastEntry() {
+    try {
+        const response = await fetch('/battery');
+        const data = await response.json();
+        
+        if (data.length === 0) {
+            document.getElementById("time-text").textContent = "-- min";
+            return;
+        }
+
+        // Extragem ultima înregistrare
+        const lastEntry = data[data.length - 1];
+        const lastTimestamp = new Date(lastEntry.timestamp);
+        const now = new Date();
+
+        // Calculăm diferența în minute
+        const diffMinutes = Math.floor((now - lastTimestamp) / (1000 * 60));
+
+        // Afișăm timpul în pagină
+        document.getElementById("time-text").textContent = `${diffMinutes} min`;
+
+    } catch (error) {
+        console.error("Eroare la obținerea datelor bateriei:", error);
+        document.getElementById("time-text").textContent = "-- min";
+    }
+}
+
+// Apelăm funcția la încărcarea paginii
+updateTimeSinceLastEntry();
+
+
+ /////////////////////////////////////////////////////////////////////////////////       
+
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </body>
+</html>

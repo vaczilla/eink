@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=600, initial-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/png" href="https://cdn.glitch.global/59040f8f-2030-41d7-9001-7b81b2a8afc6/favicon3.png?v=1730223654493"/>
+  <title>Dashboard</title>
+  
+  
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    /* Containerul principal are lățimea limitată la 600px */
+    #dataContainer {
+      max-width: 600px;
+      width: 100%;
+      background-color: #ffffff;
+      padding: 0px;
+      border-radius: 0px;
+      text-align: center;
+      margin: 0 auto; 
+    }
+    .weather-temperature {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 5.8rem;
+      position: relative;
+      top: 8px;
+      left: 0px;
+      font-weight: bold;
+      color: #000000;
+      margin: 10px;
+      margin-left: 35;
+     
+    }
+      .weather-phenomenon {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 5px;
+      text-align: left;
+      position: relative;
+      top: -580px;      /* Poziția față de partea de sus */
+      right: 245px;    /* Poziția față de partea dreaptă */
+      z-index: 1000;  /* Asigură că este deasupra altor elemente */
+      background-color: rgba(255, 255, 255, 0.7);
+      width: auto; /* Permite ajustarea lățimii în funcție de conținut */
+      height: auto; /* Permite ajustarea înălțimii în funcție de conținut */
+      white-space: nowrap; /* Evită ca textul să se rupă pe mai multe linii (opțional) */
+      display: inline-block; /* Permite elementului să se ajusteze în funcție de conținut și să nu ocupe toată lățimea */
+      max-width: 100%; /* Asigură că elementul nu se va întinde pe toată lățimea paginii */
+    }  
+      .weather-phenomenon:empty {
+      display: none;
+    } 
+      .weather-cloudiness {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      color: #000000;
+      margin: 10px
+    }
+      .weather-sun-hours {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      color: #000000;
+    }
+      .weather-humidity {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      position: relative;
+      top: 0px;
+      left: 15px;
+      color: #000000; 
+    }
+      .weather-precipitation {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      position: relative;
+      top: 0px;
+      left: 22px;
+      color: #000000;
+    } 
+      .weather-temp-range {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      font-weight: bold;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      color: #000000;
+      margin-left: auto; 
+      margin-right: 25px; 
+    } 
+      .weather-SvgIcon img {
+      position: relative;
+      top: 5px;
+      left: 0px;
+      width: 140px;
+      height: auto;
+      filter: invert(100%);
+    }        
+      .weather-DayIcon img {
+      position: relative;
+      top: 5px;
+      left: 0px;
+      width: 140px;
+      height: auto;
+      margin-left: auto; 
+      margin-right: 20px;
+      filter: invert(100%);
+    }
+      .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    img.image {
+      max-width: 100%;
+    }
+      .box { /* boxul cu date aditionale ce se afiseaza doar la un anumit interval orar */
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2rem;
+      position: absolute;
+      top: 85%;
+      background-color: rgba(255, 255, 255, 0.8); /* Fundal semi-transparent */
+      color: black;
+      padding: 10px;
+      border: 0.5px solid black;
+      display: block; /* Asigură-te că este vizibil */
+      border-radius: 0px 15px 15px 0px;
+      width: 230px;
+     }  
+      .box:empty {
+      display: none;
+     } 
+      .qr-overlay {
+      position: absolute;
+      bottom: 60px;
+      right: 10px;
+      width: 120px; /* Ajustează dimensiunea după nevoie */
+      height: auto;
+      background: #ffffff;
+      padding: 5px;
+      border-radius: 5px;
+     }
+     .umbrella-icon {
+      width: 110px;  /* Dimensiunea umbrelei */
+      height: auto;
+      position: absolute;
+      top: 430px;      /* Poziția față de partea de sus */
+      right: 435px;    /* Poziția față de partea dreaptă */
+      z-index: 1000;  /* Asigură că este deasupra altor elemente */
+      background-color: rgba(255, 255, 255, 0.8); /* Fundal semi-transparent */
+      padding: 15px;
+      border-radius: 80px;
+      border: 0.5px solid black;
+    }
+    /* Containerul superior */
+    .top-container {
+      padding-left: 15px;
+      height: 110px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 0px;
+      padding-bottom: 15px;
+      padding-top: 20px;
+      background-color: #ffffff;
+    }
+    /* Containerul mediu: */
+    .middle-container {
+      padding-left: 15px;
+      padding-bottom: 15px;
+      align-items: center;
+      justify-content: left;
+      height: 40px; /* Înălțime fixă (min-height/max-height)*/
+      display: flex;
+      gap: 5px;
+      background-color: #ffffff;
+      margin-bottom: 0px;
+    }
+
+
+    
+    
+  </style>
+</head>
+<body>
+  <div id="dataContainer">
+    <!-- Containerul 1 -->
+      <div class="top-container">
+      <div class="weather-SvgIcon" id="weatherSvgIcon"></div>
+      <div class="weather-temperature" id="weatherTemperature"></div>
+      <div class="weather-DayIcon" id="weatherDayIcon"></div>
+    </div>
+        
+    <!-- Containerul 2 -->
+    <div class="middle-container">
+      <div class="weather-cloudiness" id="weatherCloudiness"></div>
+      <div class="weather-sun-hours" id="weatherSunHours"></div>
+      <div class="weather-humidity" id="weatherHumidity"></div>
+      <div class="weather-precipitation" id="weatherPrecipitation"></div>
+      <div class="weather-temp-range" id="weatherTempRange"></div>
+    </div>
+
+    <!-- Imaginea de sub datele variabile -->
+<div class="image-container">
+    <img src="/public/kindle-image.png" alt="Kindle Image" class="image" onclick="goBack()">
+    <div id="weatherBox" class="box"></div>
+    <div id="umbrella-container"></div>
+    <div class="weather-phenomenon" id="weatherPhenomenon"></div>
+</div>
+    </div>
+
+  
+<script>
+  
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+async function loadWeatherData() {
+  try {
+    console.log("🔄 Începem preluarea datelor meteo...");
+
+    // 🔹 1. Funcție pentru obținerea căii locale pentru SVG monocrom
+    function getLocalMonochromeIcon(url) {
+      if (!url) return "";
+      const fileName = url.split('/').pop(); // Extragem numele fișierului din URL
+      const monochromeFileName = fileName.replace('.svg', '_monochrome.svg'); // Adăugăm sufixul
+      return `/public/icons/${monochromeFileName}`; // Returnăm noua cale
+    }
+
+    // 🔹 2. Preluăm datele pentru București Băneasa
+    const responseBaneasa = await fetch('/api/baneasa');
+    if (!responseBaneasa.ok) {
+      throw new Error(`Eroare HTTP! Status: ${responseBaneasa.status}`);
+    }
+    const dataBaneasa = await responseBaneasa.json();
+
+    console.log("📡 Date primite de la /api/baneasa:", dataBaneasa);
+
+    if (!dataBaneasa || !dataBaneasa.temperature || !dataBaneasa.iconUrl) {
+      throw new Error("Datele meteo pentru Băneasa nu sunt disponibile.");
+    }
+
+    const temperatureValue = dataBaneasa.temperature ? dataBaneasa.temperature.replace(/[^\d.-]/g, '') : "N/A";
+    document.getElementById('weatherTemperature').textContent = `${temperatureValue} °C`;
+
+    document.getElementById('weatherCloudiness').textContent = dataBaneasa.cloudiness || "N/A";
+    document.getElementById('weatherPhenomenon').textContent = 
+      dataBaneasa.phenomenon !== "N/A" ? `${dataBaneasa.phenomenon}` : "";
+
+    document.getElementById('weatherHumidity').innerHTML =  
+      dataBaneasa.humidity ? `<i class="fas fa-droplet fa-xs"></i> ${dataBaneasa.humidity}` : "N/A";
+
+    // 🔹 3. Preluăm datele pentru vreme generală
+    const responseWeather = await fetch('/api/weather');
+    if (!responseWeather.ok) {
+      throw new Error(`Eroare HTTP! Status: ${responseWeather.status}`);
+    }
+    const dataWeather = await responseWeather.json();
+
+    console.log("📡 Date primite de la /api/weather:", dataWeather);
+
+    if (!dataWeather || !Array.isArray(dataWeather) || dataWeather.length === 0) {
+      throw new Error("Datele meteo generale nu sunt disponibile.");
+    }
+
+    const weather = dataWeather[0];
+
+    document.getElementById('weatherSunHours').textContent = 
+      weather.sunHours ? `☀ ${weather.sunHours}` : "N/A";
+
+    // 🔹 4. Aplicăm conversia URL-ului pentru SVG-uri către directorul local
+    const svgMonochromePath = getLocalMonochromeIcon(weather.svgIcon);
+    const dayIconMonochromePath = getLocalMonochromeIcon(weather.dayIcon);
+
+    document.getElementById('weatherSvgIcon').innerHTML = 
+      svgMonochromePath ? `<img src="${svgMonochromePath}" alt="Icon Noapte">` : "";
+
+    document.getElementById('weatherDayIcon').innerHTML = 
+      dayIconMonochromePath ? `<img src="${dayIconMonochromePath}" alt="Icon Zi">` : "";
+
+    console.log("✅ Datele meteo au fost actualizate cu succes!");
+
+  } catch (error) {
+    console.error('❌ Eroare la încărcarea datelor meteo:', error);
+  }
+}
+
+  
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+async function loadWeather() {
+    try {
+        console.log("🔄 Încărcăm datele din /api/xml...");
+
+        const response = await fetch("/api/xml");
+        if (!response.ok) {
+            throw new Error("Nu am putut încarca datele din /api/xml.");
+        }
+
+        const data = await response.json();
+        console.log("📡 Datele meteo primite:", data);
+
+        if (data) {
+            console.log("✅ Datele meteo au fost preluate cu succes:", JSON.stringify(data, null, 2));
+        } else {
+            console.log("⚠️ Datele meteo sunt goale sau invalide.");
+        }
+
+        // Obține ora exactă pentru București de la TimeZoneDB
+        const apiKey = 'R4OWUVQWNWBS';  // Înlocuiește cu cheia ta API TimeZoneDB
+        const timeResponse = await fetch(`https://api.timezonedb.com/v2.1/get-time-zone?key=${apiKey}&format=json&by=zone&zone=Europe/Bucharest`);
+        
+        if (!timeResponse.ok) {
+            throw new Error("Eroare la obținerea orei pentru București.");
+        }
+
+        const timeData = await timeResponse.json();
+        console.log("📅 Ora pentru București:", timeData);
+
+        if (timeData && timeData.formatted) {
+            const bucharestDate = new Date(timeData.formatted);
+            const bucharestHour = bucharestDate.getUTCHours() + (timeData.gmtOffset / 3600);
+            console.log("⏰ Ora curentă în București calculată:", bucharestHour);
+
+            const startHour = 5;
+            const endHour = 5;
+
+            // Dacă ora curentă este între 7 și 22, afișăm prognoza
+            if (bucharestHour >= startHour && bucharestHour < endHour) {
+                document.getElementById("weatherBox").style.display = "block";
+                if (data && data.prognoza) {
+                document.getElementById("weatherBox").innerText = data.prognoza;
+             } else {
+                console.error("⚠️ Eroare: Proprietatea 'prognoza' lipsește din răspunsul API.");
+             }
+
+            } else {
+                document.getElementById("weatherBox").style.display = "none";
+            }
+        } else {
+            console.error("⚠️ Eroare: Nu s-a putut extrage ora corect din API.");
+        }
+
+        // Setează dimensiunile și poziția
+        const box = document.getElementById("weatherBox");
+
+    } catch (error) {
+        console.error("❌ Eroare la încărcarea datelor:", error);
+    }
+}
+
+
+// 🔹 Apelăm ambele funcții la încărcarea paginii
+document.addEventListener('DOMContentLoaded', () => {
+    loadWeatherData();
+    loadWeather();
+});
+
+
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    
+  
+document.addEventListener("DOMContentLoaded", function () {
+    const qrPath = "/public/qr.png";
+    fetch(qrPath, { method: "HEAD" })
+        .then(response => {
+            if (response.ok) {
+                const imageContainer = document.querySelector(".image-container");
+                
+                // Creăm elementul imagine QR
+                const qrImage = document.createElement("img");
+                qrImage.src = qrPath;
+                qrImage.alt = "QR Code";
+                qrImage.classList.add("qr-overlay");
+
+                // Adăugăm imaginea QR în container
+                imageContainer.appendChild(qrImage);
+            }
+        })
+        .catch(error => console.error("Eroare la verificarea QR.png:", error));
+});
+
+  
+  function goBack() {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = "/"; // Pagina implicită dacă nu există un istoric valid
+            }
+        } 
+   
+  
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+async function checkRain() {
+    try {
+        // 1. Obținem ora exactă din București
+        const apiKey = 'R4OWUVQWNWBS'; // Înlocuiește cu cheia ta API TimeZoneDB
+        const timeResponse = await fetch(`https://api.timezonedb.com/v2.1/get-time-zone?key=${apiKey}&format=json&by=zone&zone=Europe/Bucharest`);
+        if (!timeResponse.ok) throw new Error("Eroare la obținerea orei locale");
+        
+        const timeData = await timeResponse.json();
+        const currentHour = new Date(timeData.formatted).getHours();
+        console.log("Ora actuală în București:", currentHour);
+
+        // 2. Obținem datele meteo
+        const response = await fetch("/API/weather");
+        if (!response.ok) throw new Error("Eroare la încărcarea datelor meteo");
+
+        const data = await response.json();
+        if (!data || data.length === 0) throw new Error("Date meteo indisponibile.");
+        
+        const precipitationProbabilities = data[0].precipitationProbabilities.map(prob => parseInt(prob));
+        console.log("Probabilități precipitații:", precipitationProbabilities);
+
+        // 3. Calculăm intervalul de 3 ore în care ne aflăm
+        const currentBlock = Math.floor(currentHour / 3);
+        console.log("Ne aflăm în blocul de 3 ore:", currentBlock);
+
+        // 4. Verificăm dacă va ploua în următoarele blocuri orare
+        const upcomingRain = precipitationProbabilities.slice(currentBlock).some(prob => prob >= 45);
+
+        // 5. Afișăm umbrela dacă este nevoie
+        const umbrellaContainer = document.getElementById("umbrella-container");
+        if (upcomingRain) {
+            if (!document.getElementById("umbrella-icon")) {
+                const img = document.createElement("img");
+                img.src = "./icons/umbrela.png";
+                img.alt = "Atenție! Posibilă ploaie!";
+                img.id = "umbrella-icon";
+                img.classList.add("umbrella-icon");
+                umbrellaContainer.appendChild(img);
+            }
+        } else {
+            const existingIcon = document.getElementById("umbrella-icon");
+            if (existingIcon) {
+                umbrellaContainer.removeChild(existingIcon);
+            }
+        }
+    } catch (error) {
+        console.error("Eroare la verificarea precipitațiilor:", error);
+    }
+}
+
+// ✅ Apelează funcția după ce pagina s-a încărcat complet
+window.onload = checkRain;
+
+  
+  
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+  async function fetchWeatherData() {
+    try {
+        // 1. Obținem ora exactă din București
+        const apiKey = 'R4OWUVQWNWBS'; // Înlocuiește cu cheia ta API TimeZoneDB
+        const timeResponse = await fetch(`https://api.timezonedb.com/v2.1/get-time-zone?key=${apiKey}&format=json&by=zone&zone=Europe/Bucharest`);
+        if (!timeResponse.ok) throw new Error("Eroare la obținerea orei locale");
+        
+        const timeData = await timeResponse.json();
+        const currentHour = new Date(timeData.formatted).getHours();
+        console.log("Ora actuală în București:", currentHour);
+
+        // 2. Obținem datele meteo
+        const response = await fetch("/API/weather");
+        if (!response.ok) throw new Error("Eroare la încărcarea datelor meteo");
+
+        const data = await response.json();
+        if (!data || data.length === 0) throw new Error("Date meteo indisponibile.");
+        
+        const precipitationProbabilities = data[0].precipitationProbabilities.map(prob => parseInt(prob));
+        console.log("Probabilități precipitații:", precipitationProbabilities);
+
+        // 3. Calculăm intervalul de 3 ore în care ne aflăm
+        const currentBlock = Math.floor(currentHour / 3);
+        console.log("Ne aflăm în blocul de 3 ore:", currentBlock);
+
+        // 4. Selectăm cea mai mare valoare a precipitațiilor din orele ce urmează
+        const upcomingPrecipitation = precipitationProbabilities.slice(currentBlock);
+        const maxPrecipitation = Math.max(...upcomingPrecipitation);
+
+        // 5. Afișăm procentajul maxim de precipitații
+        document.getElementById('weatherPrecipitation').innerHTML = 
+            `<i class="fa-solid fa-umbrella fa-xs"></i> ${maxPrecipitation}%`;
+    } catch (error) {
+        console.error("Eroare la preluarea datelor meteo:", error);
+    }
+}
+
+// Apelează funcția la încărcarea paginii
+fetchWeatherData();
+
+
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+async function updateWeatherTempRange() {
+    try {
+        const response = await fetch('/api/xml');
+        if (!response.ok) {
+            throw new Error('Eroare la preluarea datelor');
+        }
+        
+        const data = await response.json();
+        const tempRange = `${data.maxTemp} / ${data.minTemp}`;       
+        
+        document.getElementById('weatherTempRange').textContent = tempRange;
+    } catch (error) {
+        console.error('Eroare:', error);
+        document.getElementById('weatherTempRange').textContent = 'Date indisponibile';
+    }
+}
+
+// Apelăm funcția la încărcarea paginii
+document.addEventListener('DOMContentLoaded', updateWeatherTempRange);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+  
+  </script>
+</body>        
+</html>  

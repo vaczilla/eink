@@ -1,0 +1,91 @@
+comanda pentru stergere chache npm: npm cache clean --force
+
+
+Check disk space using $ df
+Run git gc and git prune, this will help cleanup files and remove unreachable objects
+If you’re not worried about git history, remove the .git folder using $ rm -rf .git
+Remove unused dependencies from your package.json
+Review your dependencies in the node_modules folder.
+
+
+Șterge și Reinstalează Modulele
+Uneori, problema poate fi la nivelul dependințelor corupte. Încearcă să ștergi și să reinstalezi modulele:
+
+rm -rf node_modules package-lock.json
+npm install
+
+------------------------------------------------------------------------
+
+Run cd ~ && du -hs $(ls -A) in your terminal. (pentru a vedea fisierele mari, posibil ca .git sa fie cel mai mare)
+
+1. Șterge și regenerează istoricul Git
+Dacă nu ai nevoie de istoricul versiunilor:
+
+
+rm -rf .git
+git init
+git add .
+git commit -m "Reset repo"
+Aceasta șterge istoricul și creează un nou repository Git, reducând dimensiunea folderului .git la câțiva KB.
+
+2. Curățare Git fără a șterge istoricul complet
+Dacă vrei să păstrezi istoricul dar să cureți datele inutile:
+
+bash
+Copiază
+Editează
+git gc --prune=now
+git reflog expire --expire=now --all
+git repack -a -d -f
+Aceste comenzi comprimă și elimină datele inutile din Git.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+It sounds like your project is out of space. Run enable-pnpm and then git prune and git gc from the console. 
+If problems persist, let us know the project name and we’ll take a look. If your project is private, either 
+make it public temporarily or DM me a join link so we can view the code. Thanks.
+
+-------------------------------------------------------------------------------------------------------
+
+/* <filter-function> values */
+filter: blur(5px);
+filter: brightness(0.4);
+filter: contrast(200%);
+filter: drop-shadow(16px 16px 20px blue);
+filter: grayscale(50%);
+filter: hue-rotate(90deg);
+filter: invert(75%);
+filter: opacity(25%);
+filter: saturate(30%);
+filter: sepia(60%);
+
+
+-------------------------------------------------------------------------------------------------------
+
+comenzi de incarcare a unei poze si aducere in directorul dorit
+
+wget https://cdn.glitch.global/3e476950-e436-4343-9a6b-76aa07b7fed2/20_iday_monochrome.svg?v=1738856796533
+
+mv "20_iday_monochrome.svg?v=1738856796533" 20_iday_monochrome.svg
+
+rm 20_iday_monochrome.svg
+
+---------------------------------------------------------
+
+lista API-uri
+
+https://eink.glitch.me/API/weather
+
+https://eink.glitch.me/API/baneasa
+
+https://eink.glitch.me/API/xml
+
+https://eink.glitch.me/api/raportare
+
+https://eink.glitch.me/battery
+
+https://eink.glitch.me/screenshot 
+
+https://eink.glitch.me/update  (actualizare vreme)

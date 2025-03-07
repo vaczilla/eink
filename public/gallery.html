@@ -1,0 +1,452 @@
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://cdn.glitch.global/59040f8f-2030-41d7-9001-7b81b2a8afc6/favicon3.png?v=1730223654493">
+    <title>Galerie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+      
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+                padding: 25px;
+      }
+      .image-container {
+        position: relative;
+        max-width: 380px;
+        overflow: hidden;
+        border-radius: 10px;
+        padding: 0px
+      }
+      .image-container img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+       .button-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+      .image-container:hover .button-overlay {
+        opacity: 1;
+      }
+      .button-overlay button {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .card {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      }
+      #logo {
+        width: 130px;
+        height: auto;
+        cursor: pointer;
+      }
+ .dropbtn {
+    background-color: #ffffff;
+    color: black;
+    padding: 12px 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #f2f2f2;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+.dropdown-content a i {
+  margin-right: 8px; /* Spațiere între iconiță și text */
+}
+.modal {
+    display: none; /* Ascuns inițial */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 90vw;  /* Ajustăm pentru ecrane mari */
+    max-height: 90vh;  /* Ajustăm pentru ecrane mari */
+    object-fit: contain; /* Asigurăm păstrarea proporțiilor */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 10; /* Asigură că butoanele sunt peste imagine */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Asigură poziționarea corectă a butoanelor */
+.prev-btn {
+    left: 5%;
+}
+
+.next-btn {
+    right: 5%;
+}
+
+/* Ajustare pe ecrane mici */
+@media screen and (max-width: 600px) {
+    .prev-btn {
+        left: 2%;
+    }
+
+    .next-btn {
+        right: 2%;
+    }
+
+    .nav-btn {
+        padding: 8px;
+        font-size: 18px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+.nav-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.modal-btn {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.modal-btn:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+
+
+    </style>
+  </head>
+  <!-- Lightbox pentru afișarea imaginii mărite -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <button class="nav-btn prev-btn" onclick="prevImage()">&#10094;</button>
+    <div class="modal-content-wrapper">
+        <img id="modalImage" class="modal-content">
+        <div id="modalButtons" class="modal-buttons"></div>
+    </div>
+    <button class="nav-btn next-btn" onclick="nextImage()">&#10095;</button>
+</div>
+
+
+
+<body class="bg-light">
+    <div id="toastContainer" class="toast-container position-fixed top-0 end-0 p-3"></div>
+    <div class="container-xl py-5 d-flex justify-content-center">
+        <div class="card custom-shadow" style="max-width: 1200px; width: 100%;">
+            <div class="card-body">
+                <!-- Meniu dropdown -->
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="dropdown">
+                       <button class="dropbtn" onclick="toggleDropdown(event)">
+                         <i class="fas fa-bars"></i> Meniu
+                           </button>
+                        <div id="dropdownMenu" class="dropdown-content">
+                <a href="https://eink.glitch.me/index.html"><i class="fas fa-robot"></i> AI</a>
+                <a href="https://eink.glitch.me/gallery.html"><i class="fas fa-image"></i> Galerie</a>
+                <a href="https://eink.glitch.me/api.html"><i class="fas fa-code"></i> API</a>
+                <a href="https://eink.glitch.me/qr.html"><i class="fas fa-qrcode"></i> QR</a>
+                <a href="https://eink.glitch.me/dashboard.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                <a href="https://eink.glitch.me/screenshot.html"><i class="fas fa-adjust"></i> e-Ink</a>
+                        </div>
+                    </div>
+                   <!-- <img id="logo" src="https://cdn.glitch.global/3e476950-e436-4343-9a6b-76aa07b7fed2/vaka_logo.png?v=1739184199435"
+                         alt="Logo" title="Logo aplicație" class="logo-img">-->
+                </div>
+            </div>
+            <div id="gallery" class="gallery row"></div>
+        </div>
+    </div>
+          <script>
+            
+         <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+  
+
+  
+    <script>
+      
+      
+       function showToast(message, type = "success") {
+            const toastContainer = document.getElementById("toastContainer");
+            const toast = document.createElement("div");
+            toast.classList.add("toast", "align-items-center", "show", "text-bg-" + type, "border-0");
+            toast.setAttribute("role", "alert");
+            toast.innerHTML = `
+                <div class="d-flex">
+                    <div class="toast-body">${message}</div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"></button>
+                </div>`;
+            toastContainer.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+      
+////////////////////////////////////////////////////// 
+      
+      
+let imagesList = []; // Lista cu toate imaginile din galerie
+let currentIndex = 0; // Indexul imaginii curente în modal
+
+async function loadGallery() {
+    const response = await fetch("/gallery");
+    const images = await response.json();
+
+    // Sortăm imaginile de la cea mai recentă la cea mai veche
+    images.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+    const gallery = document.getElementById("gallery");
+    gallery.innerHTML = "";
+    
+    // Salvăm URL-urile imaginilor în lista globală
+    imagesList = images;
+
+    images.forEach((image, index) => {
+        const imgContainer = document.createElement("div");
+        imgContainer.classList.add("image-container", "col-md-3", "text-center");
+
+        const img = document.createElement("img");
+        img.src = image.url;
+        img.alt = "Imagine generată";
+        img.classList.add("img-fluid");
+
+        // 📌 Adaugă event listener pentru deschiderea imaginii mărite
+        img.addEventListener("click", function () {
+            openModal(index);
+        });
+
+        const buttonOverlay = document.createElement("div");
+        buttonOverlay.classList.add("button-overlay");
+
+        const deleteButton = document.createElement("button");
+        deleteButton.innerHTML = "<i class='fas fa-trash-alt'></i>";
+        deleteButton.onclick = () => deleteImage(image.public_id);
+
+        const useButton = document.createElement("button");
+        useButton.innerHTML = "<i class='fas fa-check'></i>";
+        useButton.onclick = () => useImage(image.public_id);
+
+        buttonOverlay.appendChild(useButton);
+        buttonOverlay.appendChild(deleteButton);
+        imgContainer.appendChild(img);
+        imgContainer.appendChild(buttonOverlay);
+        gallery.appendChild(imgContainer);
+    });
+}
+
+function openModal(index) {
+    const modal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+    const modalButtons = document.getElementById("modalButtons");
+
+    currentIndex = index; // Setăm indexul imaginii curente
+    modal.style.display = "flex";
+    updateModalImage(); // Actualizăm imaginea afișată
+
+    // Adăugăm butoanele în modal
+    modalButtons.innerHTML = "";
+    const deleteButton = document.createElement("button");
+    deleteButton.innerHTML = "Șterge";
+    deleteButton.classList.add("modal-btn");
+    deleteButton.onclick = () => deleteImage(imagesList[currentIndex].public_id);
+
+    const useButton = document.createElement("button");
+    useButton.innerHTML = "Utilizează";
+    useButton.classList.add("modal-btn");
+    useButton.onclick = () => useImage(imagesList[currentIndex].public_id);
+
+    modalButtons.appendChild(useButton);
+    modalButtons.appendChild(deleteButton);
+}
+
+function updateModalImage() {
+    const modalImage = document.getElementById("modalImage");
+    modalImage.src = imagesList[currentIndex].url;
+    modalImage.style.width = "auto"; // Ajustare automată
+    modalImage.style.height = "auto"; // Ajustare automată
+    modalImage.style.maxWidth = "90vw"; // Nu depășește 90% din ecran
+    modalImage.style.maxHeight = "90vh"; // Nu depășește 90% din ecran
+}
+
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+
+function prevImage() {
+    if (currentIndex > 0) {
+        currentIndex--;
+        updateModalImage();
+    }
+}
+
+function nextImage() {
+    if (currentIndex < imagesList.length - 1) {
+        currentIndex++;
+        updateModalImage();
+    }
+}
+
+  ////////////////////////////////////////////////////// 
+      
+      
+      function toggleDropdown(event) {
+      event.stopPropagation(); // Previne închiderea instantă a meniului
+      document.getElementById("dropdownMenu").classList.toggle("show");
+    }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                let dropdowns = document.getElementsByClassName("dropdown-content");
+                for (let i = 0; i < dropdowns.length; i++) {
+                    let openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains("show")) {
+                        openDropdown.classList.remove("show");
+                    }
+                }
+            }
+        };
+  
+
+
+////////////////////////////////////////////////////// 
+      
+      
+      
+        async function deleteImage(publicId) {
+            try {
+                const encodedPublicId = encodeURIComponent(publicId);
+                const response = await fetch(`/delete-image/${encodedPublicId}`, { method: "DELETE" });
+                const result = await response.json();
+                if (result.success) {
+                    showToast("Imagine ștearsă cu succes!");
+                    loadGallery();
+                } else {
+                    showToast("Eroare la ștergere: " + result.error, "danger");
+                }
+            } catch (error) {
+                showToast("Eroare la request: " + error.message, "danger");
+            }
+        }
+
+        async function useImage(publicId) {
+            try {
+                const encodedPublicId = encodeURIComponent(publicId);
+                const response = await fetch(`/use-image/${encodedPublicId}`, { method: "POST" });
+                const result = await response.json();
+                if (result.success) {
+                    showToast("Imagine utilizată cu succes!");
+                } else {
+                    showToast("Eroare la utilizarea imaginii: " + result.error, "danger");
+                }
+            } catch (error) {
+                showToast("Eroare la request: " + error.message, "danger");
+            }
+        }
+
+
+            loadGallery();
+            
+          </script>
+  </body>
+</html>

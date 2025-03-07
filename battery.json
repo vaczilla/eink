@@ -1,0 +1,5762 @@
+[
+  {
+    "timestamp": "2025-02-08T02:23:25.382Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T02:54:43.679Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T03:26:01.441Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T03:57:19.567Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T04:28:37.335Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T04:59:55.122Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T05:31:12.578Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T06:02:29.769Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T06:33:59.346Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T07:05:17.949Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T07:36:35.142Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T08:07:52.569Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T08:39:09.738Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T09:10:28.241Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T09:33:12.086Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T10:04:29.718Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T10:35:46.555Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T12:09:38.372Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T12:40:55.269Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T13:43:56.244Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T14:15:13.768Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T14:46:34.209Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T15:17:51.472Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T15:49:08.583Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T16:20:26.044Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T16:51:43.671Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T17:23:01.368Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T17:54:19.674Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T18:25:37.469Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T18:56:54.509Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T19:28:01.571Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T19:59:18.758Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T20:30:27.365Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T21:01:44.268Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T21:33:01.477Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T22:04:08.474Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T22:35:16.068Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T23:06:33.175Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-08T23:37:50.176Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T00:09:08.074Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T00:40:15.862Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T01:13:14.784Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T01:46:04.073Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T02:18:47.801Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T02:51:45.883Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T03:24:46.667Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T03:57:40.488Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T04:30:39.081Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T05:03:35.390Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T05:36:28.268Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T06:09:20.484Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T06:42:21.474Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T07:15:16.262Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T07:46:33.745Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T08:17:51.239Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T08:49:08.608Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T09:20:17.537Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T09:51:36.543Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T10:22:53.671Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T10:54:01.396Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T11:25:19.624Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T11:56:37.036Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T12:27:44.376Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T12:59:01.635Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T13:30:08.844Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T14:01:25.750Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T14:32:32.438Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T15:03:49.729Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T15:34:56.634Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T16:06:14.344Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T16:37:35.339Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T17:08:52.651Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T17:39:59.741Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T18:11:19.334Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T18:42:37.335Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T19:13:44.453Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T19:45:01.739Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T20:16:20.312Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T20:47:37.435Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T21:18:54.117Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T21:50:11.235Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T22:21:28.279Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T22:52:45.338Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T23:23:52.135Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-09T23:55:09.233Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T00:26:18.436Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T00:57:36.006Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T01:28:53.005Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T02:00:10.036Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T02:31:18.020Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T03:02:24.840Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T03:33:42.034Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T04:04:48.815Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T04:36:05.936Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T05:07:13.336Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T05:38:33.935Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T06:09:50.693Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T06:41:08.042Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T07:12:24.943Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T07:43:41.688Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T08:14:58.888Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T08:46:16.342Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T09:17:34.166Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T09:48:50.694Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T10:20:07.836Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T10:51:24.643Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T11:22:41.846Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T11:53:59.034Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T12:25:05.719Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T12:56:22.753Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T13:27:39.372Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T13:58:56.410Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T14:30:13.734Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T15:01:35.414Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T15:32:52.635Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T16:04:09.550Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T16:35:17.034Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T17:06:34.440Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T17:37:51.446Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T18:09:08.461Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T18:40:25.252Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T19:11:42.171Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T19:43:51.268Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T20:15:08.536Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T20:46:25.638Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T21:17:42.341Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T21:48:59.196Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T22:20:18.136Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T22:51:36.237Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T23:22:53.437Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-10T23:54:10.537Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T00:25:27.543Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T00:56:44.335Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T01:28:01.480Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T01:59:18.634Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T02:30:36.347Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T03:01:52.843Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T03:32:59.847Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T04:04:18.935Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T04:35:39.397Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T05:06:55.842Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T05:38:12.954Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T06:09:22.244Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T06:40:29.736Z",
+    "batteryLevel": 59,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T07:11:46.740Z",
+    "batteryLevel": 59,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T09:38:44.738Z",
+    "batteryLevel": 58,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T10:10:01.637Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T10:41:08.738Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T11:12:25.935Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T11:43:33.839Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T12:14:49.846Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T12:46:06.638Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T13:17:23.634Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T13:48:40.941Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T14:19:57.540Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T14:51:14.044Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T15:22:22.808Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T15:53:40.610Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T16:24:47.544Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T16:56:03.838Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T17:27:22.536Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T17:58:40.745Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T18:29:57.747Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T19:01:14.638Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T19:32:22.236Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T20:03:39.611Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T20:34:56.439Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T21:06:13.742Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T21:37:21.991Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T22:08:39.452Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T22:39:57.970Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T23:11:05.263Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-11T23:42:22.580Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T00:13:30.239Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T00:44:47.234Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T01:15:54.135Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T01:47:11.197Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T02:18:18.287Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T02:49:39.846Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T03:20:57.336Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T03:52:14.342Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T04:23:32.237Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T04:54:49.546Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T05:26:07.240Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T05:57:24.641Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T06:28:43.436Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T07:00:05.722Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T07:31:23.136Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T08:02:41.139Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T08:33:57.138Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T09:05:14.362Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T09:36:31.540Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T10:07:48.021Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T10:39:04.239Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T11:10:23.382Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T11:41:41.169Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T12:12:58.526Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T12:44:16.235Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T13:15:25.735Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T13:46:43.113Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T14:18:00.004Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T14:49:17.227Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T15:20:36.894Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T16:23:25.839Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T16:54:44.373Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T17:26:02.947Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T17:57:20.261Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T18:28:38.961Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T18:59:55.680Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T19:31:07.741Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T20:02:26.739Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T20:33:44.734Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T21:05:01.640Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T21:36:18.639Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T22:07:28.446Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T22:38:45.636Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T23:10:02.781Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-12T23:41:20.140Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T00:12:28.638Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T00:43:46.038Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T01:14:53.635Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T01:46:11.123Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T02:17:28.542Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T02:48:36.834Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T03:19:54.849Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T03:51:02.437Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T04:22:19.345Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T04:53:27.346Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T05:24:44.835Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T05:56:02.539Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T06:27:10.338Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T06:58:27.547Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T07:29:45.535Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T08:00:53.240Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T08:32:10.341Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T09:03:17.237Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T09:34:34.139Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T10:05:41.752Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T10:36:59.335Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T11:08:06.111Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T11:39:23.848Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T12:10:42.081Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T12:41:49.236Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T13:13:06.032Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T13:44:13.048Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T14:15:30.098Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T14:46:38.164Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T15:17:55.242Z",
+    "batteryLevel": 38,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T15:49:08.138Z",
+    "batteryLevel": 38,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T16:20:28.247Z",
+    "batteryLevel": 38,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T16:51:46.060Z",
+    "batteryLevel": 38,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T17:23:02.935Z",
+    "batteryLevel": 38,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T17:54:19.849Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T18:25:34.043Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T18:56:51.952Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T19:28:13.841Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T19:59:31.339Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T20:30:50.362Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T21:02:07.875Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T21:33:25.339Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T22:04:42.763Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T22:35:49.742Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T23:07:06.700Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-13T23:38:13.736Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T00:09:30.734Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T00:40:48.639Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T01:11:55.997Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T01:43:13.743Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T02:14:20.834Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T02:45:41.609Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T03:16:58.542Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T03:48:15.638Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T04:19:23.368Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T04:50:44.949Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T05:22:02.436Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T05:53:19.395Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T06:24:29.135Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T06:55:46.637Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T07:27:04.737Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T08:42:55.966Z",
+    "batteryLevel": 32,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T09:14:13.417Z",
+    "batteryLevel": 31,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T09:45:30.334Z",
+    "batteryLevel": 31,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T10:16:48.240Z",
+    "batteryLevel": 31,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T10:47:56.243Z",
+    "batteryLevel": 31,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T11:19:13.637Z",
+    "batteryLevel": 31,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T11:50:31.344Z",
+    "batteryLevel": 30,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T12:21:39.435Z",
+    "batteryLevel": 30,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T12:52:57.235Z",
+    "batteryLevel": 30,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T13:24:04.234Z",
+    "batteryLevel": 30,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T13:55:21.211Z",
+    "batteryLevel": 30,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T14:26:38.376Z",
+    "batteryLevel": 29,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T14:57:55.443Z",
+    "batteryLevel": 29,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T15:29:13.337Z",
+    "batteryLevel": 29,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T16:00:31.837Z",
+    "batteryLevel": 29,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T16:31:48.997Z",
+    "batteryLevel": 29,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T17:03:05.970Z",
+    "batteryLevel": 29,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T17:34:23.036Z",
+    "batteryLevel": 28,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T18:05:43.141Z",
+    "batteryLevel": 28,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T18:36:49.966Z",
+    "batteryLevel": 28,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T19:08:05.948Z",
+    "batteryLevel": 28,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T19:39:11.956Z",
+    "batteryLevel": 28,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T20:10:18.927Z",
+    "batteryLevel": 27,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T20:41:35.844Z",
+    "batteryLevel": 27,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T21:12:53.077Z",
+    "batteryLevel": 27,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T21:44:09.978Z",
+    "batteryLevel": 27,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T22:15:29.174Z",
+    "batteryLevel": 27,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T22:46:47.689Z",
+    "batteryLevel": 27,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T23:18:04.935Z",
+    "batteryLevel": 26,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-14T23:49:22.273Z",
+    "batteryLevel": 26,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T00:20:32.829Z",
+    "batteryLevel": 26,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T00:51:50.775Z",
+    "batteryLevel": 26,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T01:23:07.670Z",
+    "batteryLevel": 26,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T01:54:25.279Z",
+    "batteryLevel": 25,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T02:25:44.602Z",
+    "batteryLevel": 25,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T02:56:51.675Z",
+    "batteryLevel": 25,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T03:28:08.820Z",
+    "batteryLevel": 25,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T03:59:26.677Z",
+    "batteryLevel": 25,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T04:30:36.447Z",
+    "batteryLevel": 24,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T05:01:54.503Z",
+    "batteryLevel": 24,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T05:33:11.579Z",
+    "batteryLevel": 24,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T06:04:18.477Z",
+    "batteryLevel": 24,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T06:35:35.471Z",
+    "batteryLevel": 24,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T07:06:42.744Z",
+    "batteryLevel": 24,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T07:38:00.470Z",
+    "batteryLevel": 23,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T08:09:17.375Z",
+    "batteryLevel": 23,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T08:40:34.779Z",
+    "batteryLevel": 23,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T09:11:53.373Z",
+    "batteryLevel": 23,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T09:43:10.826Z",
+    "batteryLevel": 23,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T10:14:30.774Z",
+    "batteryLevel": 22,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T10:45:49.488Z",
+    "batteryLevel": 22,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T11:17:06.368Z",
+    "batteryLevel": 22,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T11:48:23.268Z",
+    "batteryLevel": 22,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T12:19:33.185Z",
+    "batteryLevel": 22,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T12:50:51.225Z",
+    "batteryLevel": 21,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T13:22:08.071Z",
+    "batteryLevel": 21,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T13:53:25.758Z",
+    "batteryLevel": 21,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T14:24:34.372Z",
+    "batteryLevel": 21,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T14:55:52.499Z",
+    "batteryLevel": 21,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T15:27:10.169Z",
+    "batteryLevel": 21,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T15:58:17.971Z",
+    "batteryLevel": 20,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T16:29:35.082Z",
+    "batteryLevel": 20,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T17:00:53.092Z",
+    "batteryLevel": 20,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T17:32:09.992Z",
+    "batteryLevel": 20,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T18:03:28.368Z",
+    "batteryLevel": 20,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T18:34:48.798Z",
+    "batteryLevel": 19,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T19:06:05.868Z",
+    "batteryLevel": 19,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T19:37:22.873Z",
+    "batteryLevel": 19,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T20:09:17.879Z",
+    "batteryLevel": 19,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T20:40:35.279Z",
+    "batteryLevel": 19,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T21:11:52.791Z",
+    "batteryLevel": 18,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T21:43:09.790Z",
+    "batteryLevel": 18,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T22:14:18.221Z",
+    "batteryLevel": 18,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T22:45:36.067Z",
+    "batteryLevel": 18,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T23:16:42.568Z",
+    "batteryLevel": 18,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-15T23:47:59.570Z",
+    "batteryLevel": 17,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T00:19:06.568Z",
+    "batteryLevel": 17,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T00:50:23.871Z",
+    "batteryLevel": 17,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T01:21:33.371Z",
+    "batteryLevel": 17,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T01:52:50.576Z",
+    "batteryLevel": 17,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T02:24:07.776Z",
+    "batteryLevel": 17,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T02:55:14.667Z",
+    "batteryLevel": 16,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T03:26:32.672Z",
+    "batteryLevel": 16,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T03:57:39.461Z",
+    "batteryLevel": 16,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T04:28:56.725Z",
+    "batteryLevel": 16,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T05:00:06.713Z",
+    "batteryLevel": 16,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T05:31:23.667Z",
+    "batteryLevel": 16,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T06:02:40.674Z",
+    "batteryLevel": 15,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T06:33:47.768Z",
+    "batteryLevel": 15,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T07:05:04.420Z",
+    "batteryLevel": 15,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T07:36:11.276Z",
+    "batteryLevel": 15,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T08:07:29.790Z",
+    "batteryLevel": 15,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T08:38:49.381Z",
+    "batteryLevel": 14,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T08:46:40.028Z",
+    "batteryLevel": 14,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T09:17:57.381Z",
+    "batteryLevel": 15,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T09:49:14.477Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T10:20:32.529Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T10:51:50.574Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T11:23:07.384Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T11:54:14.768Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T12:25:33.605Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T12:56:51.275Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T13:27:58.269Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T13:59:15.015Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T14:30:22.413Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T15:01:41.071Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T15:32:57.969Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T16:04:15.078Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T16:35:32.742Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T16:49:16.904Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T17:34:17.572Z",
+    "batteryLevel": 46,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T18:05:26.353Z",
+    "batteryLevel": 66,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T19:48:04.087Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T19:48:04.176Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T19:48:05.873Z",
+    "batteryLevel": 97,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T20:04:21.077Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-16T20:35:37.974Z",
+    "batteryLevel": 99,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T21:06:54.772Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T21:38:01.521Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T22:09:18.715Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T22:40:26.169Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T23:11:44.871Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-16T23:43:01.740Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T00:14:18.581Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T00:45:35.869Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T01:16:52.868Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T01:48:09.472Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T02:19:16.468Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T02:50:33.608Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T03:21:40.471Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T03:52:57.367Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T04:24:04.458Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T04:55:21.647Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T05:26:38.668Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T05:57:56.567Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T06:29:13.574Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T07:00:31.667Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T07:31:50.375Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T08:03:07.472Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T08:34:24.580Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T09:05:41.370Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T09:36:58.375Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T10:08:15.268Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T10:39:22.368Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T11:10:39.580Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T11:41:57.174Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T12:13:14.301Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T12:44:31.310Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T13:15:49.418Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T13:47:06.274Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T14:18:23.061Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T14:49:40.745Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T15:20:58.268Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T15:52:15.404Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T16:23:32.161Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T16:54:52.245Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T17:26:14.286Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T17:57:31.379Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T18:28:50.674Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T18:59:57.910Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T19:31:15.275Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T20:02:22.469Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T20:33:40.869Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T21:04:47.808Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T21:36:04.878Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T22:07:12.469Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T22:38:30.372Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T23:09:39.052Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-17T23:40:57.171Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T00:12:14.373Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T00:43:22.464Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T01:14:40.573Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T01:45:48.350Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T02:17:06.370Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T02:48:13.566Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T03:19:31.737Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T03:50:40.067Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T04:21:57.421Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T04:53:15.373Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T05:24:23.669Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T05:55:40.870Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T06:26:59.072Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T06:58:17.196Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T07:29:34.867Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T08:00:53.355Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T08:32:10.643Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T09:03:28.371Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T09:34:46.328Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T10:05:53.605Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T10:37:11.470Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T11:08:19.273Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T11:39:37.709Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T12:10:55.902Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T12:42:04.070Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T13:13:21.686Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T13:44:29.568Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T14:15:47.169Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T14:47:05.172Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T15:18:12.369Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T15:49:29.770Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T16:20:38.704Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T16:51:58.825Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T17:23:16.571Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T17:54:33.871Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T18:25:44.274Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T18:57:01.284Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T19:28:18.671Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T19:59:36.270Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T20:30:48.079Z",
+    "batteryLevel": 94,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T21:02:06.427Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T21:33:23.171Z",
+    "batteryLevel": 98,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T22:04:41.872Z",
+    "batteryLevel": 96,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-18T22:28:56.272Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-18T22:30:08.062Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-18T22:31:20.154Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-18T23:02:31.971Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-18T23:33:42.586Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T00:05:00.868Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T00:36:18.371Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T01:07:35.445Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T01:38:43.581Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T02:10:00.999Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T02:41:18.271Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T03:12:36.671Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T03:43:45.296Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T04:15:03.668Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T04:46:20.971Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T05:17:28.371Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T05:48:47.068Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T06:20:06.318Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T06:51:14.885Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:14:00.515Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:23:24.669Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:24:40.622Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:25:52.667Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:27:05.539Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:28:18.373Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:29:30.567Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:30:43.469Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:31:58.416Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:33:10.461Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:34:34.572Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:35:47.240Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:37:00.269Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:38:13.468Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:39:36.946Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:40:50.270Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:42:15.379Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T07:43:32.568Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T08:22:06.552Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T08:53:13.568Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T09:24:31.674Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T09:55:48.969Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T10:26:57.214Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T10:58:14.993Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T11:29:32.535Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T12:00:49.669Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T12:32:07.044Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T13:03:24.575Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T13:34:42.069Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T14:06:01.201Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T14:37:20.470Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T15:08:37.670Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T15:39:56.269Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T16:11:14.670Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T16:42:31.571Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T17:13:48.887Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T17:45:06.877Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T18:16:24.678Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T18:47:32.480Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T19:05:28.773Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T19:36:54.468Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T19:59:13.826Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T20:07:15.867Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T20:38:33.168Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T20:47:22.971Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T20:49:36.267Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T21:20:53.073Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T21:52:10.173Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T22:23:19.469Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T22:54:37.371Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T23:25:54.799Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-19T23:57:12.090Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T00:28:29.015Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T00:59:45.876Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T01:31:03.672Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T02:02:21.373Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T02:33:38.794Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T03:04:56.069Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T03:36:12.871Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T04:07:30.268Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T04:38:48.041Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T05:10:06.727Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T05:41:29.669Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T06:12:46.671Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T06:44:04.667Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T07:15:13.588Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T07:46:32.868Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T08:17:49.571Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T08:48:56.467Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T09:20:13.728Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T09:51:21.469Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T10:22:38.476Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T10:53:45.468Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T11:21:13.267Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T11:52:33.475Z",
+    "batteryLevel": 65,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-20T12:23:40.268Z",
+    "batteryLevel": 92,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-20T12:25:51.879Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T12:56:59.576Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T13:28:08.920Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T13:59:26.269Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T14:30:43.280Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T15:02:00.669Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T15:33:22.269Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T16:04:39.293Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T16:35:47.375Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T17:07:06.270Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T17:38:36.792Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T18:09:55.454Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T18:41:12.474Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T19:12:30.569Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T19:43:48.370Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T20:15:07.167Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T20:46:25.169Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T21:17:42.280Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T21:48:59.271Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T22:20:17.271Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T22:51:33.971Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T23:22:51.383Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-20T23:54:09.428Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T00:25:27.274Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T00:56:34.778Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T01:59:29.576Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T02:30:37.887Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T03:01:55.869Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T03:33:12.967Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T04:04:30.573Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T04:35:47.671Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T05:07:08.182Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T05:38:27.237Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T06:09:45.378Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T06:41:03.210Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T07:12:23.180Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T07:43:40.776Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T08:14:47.768Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T08:46:05.496Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T09:17:22.569Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T09:48:30.103Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T10:19:47.925Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T10:50:58.397Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T11:22:16.069Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T11:53:33.773Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T12:24:50.670Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T12:56:07.969Z",
+    "batteryLevel": 91,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T13:27:26.271Z",
+    "batteryLevel": 91,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T13:58:45.473Z",
+    "batteryLevel": 91,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T14:30:02.377Z",
+    "batteryLevel": 91,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T15:01:23.412Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T15:32:40.481Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T16:03:57.471Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T16:35:05.079Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T17:06:22.477Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T17:37:39.272Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T18:08:56.169Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T18:40:18.470Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T19:11:36.184Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T19:42:52.876Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T20:14:10.063Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T20:45:18.479Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T21:16:35.377Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T21:47:52.269Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T22:19:09.572Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T22:50:26.949Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T23:21:33.973Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-21T23:52:51.670Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T00:23:58.978Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T00:55:16.068Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T01:26:22.983Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T01:57:40.675Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T02:28:58.026Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T03:00:15.968Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T03:31:33.771Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T04:02:51.770Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T04:34:09.082Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T05:05:27.177Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T05:36:44.368Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T06:07:52.069Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T06:39:08.766Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T07:10:16.201Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T07:41:34.395Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T08:12:52.290Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T08:44:00.084Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T09:15:17.868Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T09:46:24.771Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T10:17:41.768Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T10:48:49.096Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T11:20:08.770Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T11:51:27.774Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T12:22:44.798Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T12:54:01.868Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T13:25:34.213Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T13:56:51.573Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T14:28:09.970Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T14:59:27.671Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T15:30:34.568Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T16:01:51.433Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T16:32:58.470Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T17:04:15.967Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T17:35:33.350Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T18:06:50.375Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T18:38:08.069Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T19:09:25.276Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T19:40:42.369Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T20:11:59.474Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T20:43:16.679Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T21:14:24.281Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T21:45:41.468Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T22:16:48.168Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T22:48:06.171Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T23:19:24.468Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-22T23:50:42.071Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T00:21:59.270Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T00:53:27.480Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T01:24:45.173Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T01:56:02.071Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T02:27:19.168Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T02:58:36.168Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T03:29:52.972Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T04:01:10.167Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T04:32:27.977Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T05:03:45.169Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T05:35:01.776Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T06:06:20.843Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T06:37:38.167Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T07:08:55.754Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T07:40:03.678Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T08:11:22.184Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T09:14:08.672Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T09:45:26.568Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T10:16:44.077Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T10:48:01.669Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T11:19:19.678Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T11:50:36.643Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T12:21:53.775Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T12:53:10.974Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T13:24:28.672Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T13:55:45.590Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T14:27:03.922Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T14:58:24.069Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T15:29:41.768Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T16:00:48.469Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T16:32:05.382Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T17:03:14.569Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T17:34:33.089Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T18:05:50.568Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T18:36:57.292Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T19:08:06.474Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T19:39:24.240Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T20:10:41.129Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T20:41:58.471Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T21:13:07.954Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T21:44:25.143Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T22:15:43.088Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T22:46:51.488Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T23:18:07.929Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-23T23:49:26.185Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T00:20:42.975Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T00:51:59.812Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T01:23:16.972Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T01:54:34.367Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T02:25:51.075Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T02:56:58.073Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T03:28:07.077Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T03:59:24.775Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T04:30:41.685Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T05:01:58.776Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T05:33:06.377Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T06:04:23.872Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T06:35:52.676Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T07:07:09.781Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T07:38:27.675Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T08:09:44.773Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T08:40:51.775Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T09:12:09.171Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T09:43:15.578Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T10:14:32.870Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T10:45:39.485Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T11:16:56.577Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T11:48:13.575Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T12:19:30.279Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T12:50:47.372Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T13:22:04.217Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T13:53:24.376Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T14:24:31.173Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T14:55:48.376Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T15:26:55.076Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T15:58:13.591Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T16:29:20.306Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T17:00:37.105Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T17:31:44.475Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T18:03:01.273Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T18:34:24.704Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T19:05:41.167Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T19:36:57.948Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T20:08:19.287Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T20:41:12.067Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T21:12:28.969Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T21:43:45.870Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T22:15:03.073Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T22:46:21.067Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T23:17:38.170Z",
+    "batteryLevel": 62,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-24T23:48:55.272Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T00:20:12.954Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T00:51:30.268Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T01:22:37.021Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T01:53:54.041Z",
+    "batteryLevel": 61,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T02:25:01.668Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T02:56:19.074Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T03:27:26.972Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T03:58:44.068Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T04:29:50.768Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T05:01:11.009Z",
+    "batteryLevel": 60,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T05:32:31.008Z",
+    "batteryLevel": 59,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T06:03:48.016Z",
+    "batteryLevel": 59,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T06:34:54.914Z",
+    "batteryLevel": 59,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T07:06:14.112Z",
+    "batteryLevel": 59,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T07:37:32.075Z",
+    "batteryLevel": 59,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T08:08:48.667Z",
+    "batteryLevel": 58,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T08:41:46.380Z",
+    "batteryLevel": 58,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T09:13:03.872Z",
+    "batteryLevel": 58,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T09:44:21.081Z",
+    "batteryLevel": 58,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T10:15:37.879Z",
+    "batteryLevel": 58,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T10:46:54.756Z",
+    "batteryLevel": 58,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T11:18:01.706Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T11:49:19.271Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T12:20:36.734Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T12:51:53.879Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T13:23:12.205Z",
+    "batteryLevel": 57,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T13:54:31.592Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T14:25:48.876Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T14:57:05.441Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T15:28:14.979Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T15:59:32.475Z",
+    "batteryLevel": 56,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T16:30:49.773Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T17:02:06.777Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T17:33:15.472Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T18:04:32.472Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T18:35:49.924Z",
+    "batteryLevel": 55,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T19:07:07.579Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T19:38:24.660Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T20:09:41.797Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T20:42:25.975Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T21:13:43.835Z",
+    "batteryLevel": 54,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T21:45:01.280Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T22:16:18.375Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T22:47:36.056Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T23:18:44.077Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-25T23:50:01.295Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T00:21:07.872Z",
+    "batteryLevel": 53,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T00:52:25.175Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T01:23:32.270Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T01:54:48.972Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T02:25:55.976Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T02:57:13.405Z",
+    "batteryLevel": 52,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T03:28:19.974Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T03:59:36.824Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T04:30:43.872Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T05:02:00.874Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T05:33:18.123Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T06:04:35.772Z",
+    "batteryLevel": 51,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T06:35:52.765Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T07:07:09.776Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T07:38:30.772Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T08:09:47.687Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T08:40:54.582Z",
+    "batteryLevel": 50,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T09:12:11.985Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T10:14:53.689Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T10:46:10.076Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T11:17:26.575Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T11:48:43.695Z",
+    "batteryLevel": 49,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T12:20:00.680Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T12:51:17.512Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T13:22:34.530Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T13:53:51.671Z",
+    "batteryLevel": 48,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T14:25:08.671Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T14:56:16.377Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T15:27:33.720Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T15:58:50.547Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T16:30:12.318Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T17:01:32.379Z",
+    "batteryLevel": 47,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T17:32:49.342Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T18:04:06.875Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T18:35:14.076Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T19:06:32.680Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T19:37:49.516Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T20:09:06.663Z",
+    "batteryLevel": 46,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T20:40:23.686Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T21:11:40.477Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T21:42:57.414Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T22:14:16.499Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T22:45:26.161Z",
+    "batteryLevel": 45,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T23:16:43.385Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-26T23:48:00.440Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T00:19:18.465Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T00:50:25.680Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T01:21:42.454Z",
+    "batteryLevel": 44,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T01:52:49.245Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T02:24:06.279Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T02:55:14.480Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T03:26:32.374Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T03:57:49.470Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T04:28:56.278Z",
+    "batteryLevel": 43,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T05:00:15.270Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T05:31:34.375Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T06:02:41.181Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T06:33:58.276Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T07:05:05.322Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T07:36:22.371Z",
+    "batteryLevel": 42,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T08:07:40.185Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T08:38:57.325Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T09:10:16.386Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T09:41:35.075Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T10:12:52.273Z",
+    "batteryLevel": 41,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T10:44:08.972Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T11:15:18.834Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T11:46:36.155Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T12:17:52.951Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T12:49:10.177Z",
+    "batteryLevel": 40,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T13:20:29.075Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T13:51:36.207Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T14:22:52.972Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T14:54:10.172Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T15:25:19.100Z",
+    "batteryLevel": 39,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T16:48:09.109Z",
+    "batteryLevel": 38,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T17:19:26.663Z",
+    "batteryLevel": 38,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T17:50:43.606Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T18:22:01.030Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T18:53:18.078Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T19:24:26.237Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T19:55:44.712Z",
+    "batteryLevel": 37,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T20:27:01.580Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T20:58:08.676Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T21:29:27.678Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T22:00:44.673Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T22:32:01.672Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T23:03:18.680Z",
+    "batteryLevel": 36,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-27T23:34:36.681Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T00:05:53.477Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T00:37:11.344Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T01:08:28.381Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T01:39:45.481Z",
+    "batteryLevel": 35,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T02:11:02.397Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T02:42:19.383Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T03:13:36.378Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T03:44:53.272Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T04:16:00.272Z",
+    "batteryLevel": 34,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T04:47:17.564Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T05:18:24.282Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T05:49:41.235Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T06:20:48.170Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T06:52:05.479Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T07:23:25.272Z",
+    "batteryLevel": 33,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T07:54:32.074Z",
+    "batteryLevel": 32,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T08:25:49.086Z",
+    "batteryLevel": 32,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T08:56:56.003Z",
+    "batteryLevel": 32,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T09:28:13.128Z",
+    "batteryLevel": 32,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T09:59:21.068Z",
+    "batteryLevel": 32,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T10:30:38.184Z",
+    "batteryLevel": 32,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T10:36:27.973Z",
+    "batteryLevel": 31,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T11:07:44.979Z",
+    "batteryLevel": 32,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-28T11:38:51.750Z",
+    "batteryLevel": 64,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-28T12:10:10.872Z",
+    "batteryLevel": 76,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-28T12:35:55.899Z",
+    "batteryLevel": 100,
+    "isCharging": true
+  },
+  {
+    "timestamp": "2025-02-28T13:07:13.278Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T13:38:30.890Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T14:09:47.992Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T14:41:10.672Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T15:12:27.872Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T15:43:44.954Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T16:15:01.879Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T16:46:19.073Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T17:17:36.082Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T17:48:53.460Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T18:20:12.475Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T18:51:30.078Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T19:22:46.881Z",
+    "batteryLevel": 98,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T19:54:04.028Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T20:25:22.782Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T20:57:43.294Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T21:29:00.715Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T22:00:17.630Z",
+    "batteryLevel": 97,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T22:31:35.376Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T23:02:52.734Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-02-28T23:34:00.677Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T00:05:17.681Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T00:36:34.471Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T01:07:41.572Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T01:38:58.449Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T02:10:07.106Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T02:41:25.516Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T03:12:42.538Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T03:43:49.338Z",
+    "batteryLevel": 95,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T04:15:07.747Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T04:46:25.374Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T05:17:33.180Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T05:48:50.300Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T06:19:57.160Z",
+    "batteryLevel": 94,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T06:51:14.576Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T07:22:21.173Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T07:53:38.295Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T08:24:45.374Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T08:56:02.173Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T09:27:11.176Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T09:58:28.393Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T10:29:34.838Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T11:00:51.842Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T11:34:37.194Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T12:06:22.181Z",
+    "batteryLevel": 92,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T12:37:39.115Z",
+    "batteryLevel": 91,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T13:08:55.874Z",
+    "batteryLevel": 91,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T13:40:13.111Z",
+    "batteryLevel": 91,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T14:11:19.797Z",
+    "batteryLevel": 91,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T14:42:36.571Z",
+    "batteryLevel": 91,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T15:13:43.672Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T15:45:00.779Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T16:16:10.280Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T16:47:27.659Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T17:18:45.079Z",
+    "batteryLevel": 90,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T17:50:02.178Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T18:21:19.072Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T18:52:36.867Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T19:23:53.625Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T19:55:10.597Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T20:26:18.775Z",
+    "batteryLevel": 89,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T20:59:14.866Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T21:30:32.272Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T22:01:49.683Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T22:33:06.980Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T23:04:25.679Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-01T23:35:42.473Z",
+    "batteryLevel": 88,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T00:06:59.482Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T00:38:16.762Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T01:09:23.229Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T01:40:40.572Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T02:11:47.301Z",
+    "batteryLevel": 87,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T02:43:04.482Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T03:14:13.881Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T03:45:22.075Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T04:16:39.192Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T04:47:56.421Z",
+    "batteryLevel": 86,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T05:19:14.007Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T05:50:21.279Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T06:21:38.277Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T06:52:45.203Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T07:24:02.104Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T07:55:09.779Z",
+    "batteryLevel": 85,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T08:26:28.281Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T08:57:44.903Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T09:29:01.876Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T10:00:19.075Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T10:31:36.730Z",
+    "batteryLevel": 84,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T11:02:52.881Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T11:33:59.626Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T12:05:16.955Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T12:36:23.984Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T13:07:41.077Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T13:38:47.773Z",
+    "batteryLevel": 83,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T14:10:04.766Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T14:41:12.272Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T15:12:29.772Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T15:43:36.803Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T16:14:53.672Z",
+    "batteryLevel": 82,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T16:46:00.780Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T17:17:17.873Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T17:48:34.777Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T18:19:51.609Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T18:51:07.930Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T19:22:17.076Z",
+    "batteryLevel": 81,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T19:53:34.847Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T20:24:51.570Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T20:56:08.674Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T21:27:18.101Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T21:58:35.955Z",
+    "batteryLevel": 80,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T22:29:52.471Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T23:00:59.638Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-02T23:32:16.579Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T00:03:24.462Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T00:34:41.573Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T01:05:48.336Z",
+    "batteryLevel": 79,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T01:37:05.481Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T02:08:12.476Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T02:39:34.306Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T03:10:51.478Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T03:41:58.163Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T04:13:16.676Z",
+    "batteryLevel": 78,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T04:44:36.373Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T05:15:43.278Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T05:47:00.378Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T06:18:07.269Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T06:49:24.565Z",
+    "batteryLevel": 77,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T07:20:31.272Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T07:51:48.276Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T08:22:55.282Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T08:54:12.177Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T09:25:29.878Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T09:56:47.118Z",
+    "batteryLevel": 76,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T10:28:04.214Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T10:59:21.477Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T11:30:38.230Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T12:01:44.976Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T12:33:01.915Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T13:04:08.955Z",
+    "batteryLevel": 75,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T13:35:26.285Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T14:06:42.906Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T14:38:01.520Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T15:09:25.274Z",
+    "batteryLevel": 74,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T15:40:48.472Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T16:11:55.872Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T16:43:13.719Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T17:14:23.787Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T17:45:46.578Z",
+    "batteryLevel": 73,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T18:17:04.774Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T18:48:27.706Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T19:19:48.090Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T19:51:05.455Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T20:22:24.278Z",
+    "batteryLevel": 72,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T20:53:42.480Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T21:25:00.673Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T21:56:19.475Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T22:27:38.385Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T22:58:46.376Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-03T23:30:04.149Z",
+    "batteryLevel": 71,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T00:01:24.023Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T00:32:42.974Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T01:03:50.280Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T01:35:08.174Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T02:06:15.599Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T02:37:33.572Z",
+    "batteryLevel": 70,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T03:08:50.973Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T03:39:59.171Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T04:11:16.979Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T04:42:25.597Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T05:13:43.072Z",
+    "batteryLevel": 69,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T05:45:00.975Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T06:16:07.678Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T06:47:25.280Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T07:18:32.372Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T07:49:49.551Z",
+    "batteryLevel": 68,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T08:20:56.382Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T08:52:13.419Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T09:23:20.486Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T09:54:42.578Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T10:25:59.471Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T10:57:16.372Z",
+    "batteryLevel": 67,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T11:28:33.775Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T11:59:51.499Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T12:31:08.073Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T13:02:26.431Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T13:33:44.384Z",
+    "batteryLevel": 66,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T14:05:01.780Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T14:36:09.172Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T15:07:27.522Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T15:38:35.171Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T16:09:51.380Z",
+    "batteryLevel": 65,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T16:40:58.276Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T17:12:15.473Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T17:43:22.668Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T18:14:41.276Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T18:45:58.472Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T19:17:06.074Z",
+    "batteryLevel": 64,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T19:48:24.016Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T20:19:32.180Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-03-04T20:50:49.547Z",
+    "batteryLevel": 63,
+    "isCharging": false
+  }
+]

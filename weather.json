@@ -1,16 +1,16 @@
 {
   "weather": [
     {
-      "timestamp": "2025-03-04T21:12:59.726Z",
-      "temperature": "4 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/01_night.svg",
-      "windSpeed": "7  km/h",
-      "updateTime": "23:00",
+      "timestamp": "2025-03-08T10:15:21.192Z",
+      "temperature": "17 °C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/01_day.svg",
+      "windSpeed": "15  km/h",
+      "updateTime": "12:00",
       "dayIcon": "https://static.meteoblue.com/assets/images/picto/01_iday.svg",
-      "maxTemp": "10°C",
-      "minTemp": "-5°C",
+      "maxTemp": "19°C",
+      "minTemp": "0°C",
       "precipitation": "-",
-      "sunHours": "11h",
+      "sunHours": "10h",
       "precipitationProbabilities": [
         "0%",
         "0%",
@@ -22,5 +22,22 @@
         "0%"
       ]
     }
-  ]
+  ],
+  "xml": {
+    "timestamp": "2025-03-08T10:15:21.404Z",
+    "minTemp": "2°C",
+    "maxTemp": "20°C",
+    "prognoza": "CER MAI MULT SENIN"
+  },
+  "baneasa": {
+    "timestamp": "2025-03-08T10:15:23.090Z",
+    "updateTime": "08-03-2025 ora 12:00",
+    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/2.svg",
+    "phenomenon": "N/A",
+    "temperature": "15.2 ºC",
+    "wind": "1.9 m/s",
+    "cloudiness": "cer senin",
+    "pressure": "1009.5 mb, in scadere",
+    "humidity": "36%"
+  }
 }

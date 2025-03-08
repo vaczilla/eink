@@ -264,8 +264,10 @@ async function loadWeatherData() {
       throw new Error("Datele meteo pentru Băneasa nu sunt disponibile.");
     }
 
-    const temperatureValue = dataBaneasa.temperature ? dataBaneasa.temperature.replace(/[^\d.-]/g, '') : "N/A";
-    document.getElementById('weatherTemperature').textContent = `${temperatureValue} °C`;
+    const temperatureValue = dataBaneasa.temperature 
+    ? Math.floor(parseFloat(dataBaneasa.temperature.replace(/[^\d.-]/g, ''))) 
+    : "N/A";
+    document.getElementById('weatherTemperature').textContent = `${temperatureValue}° C`;
 
     document.getElementById('weatherCloudiness').textContent = dataBaneasa.cloudiness || "N/A";
     document.getElementById('weatherPhenomenon').textContent = 

@@ -27,11 +27,6 @@ const timeZoneUrl = `http://api.timezonedb.com/v2.1/get-time-zone?key=${timeZone
 const QRCode = require("qrcode");
 const programatorFilePath = 'programator.json';
 const dbFilePath = 'db.json'
-const passport = require("passport");
-const LocalStrategy = require("passport-local").Strategy;
-const bodyParser = require("body-parser");
-const session = require("express-session");
-const flash = require('connect-flash');
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -440,7 +435,7 @@ async function captureAndProcessScreenshot() {
 
         const page = await browser.newPage();
         await page.setViewport({ width: 600, height: 800 });
-        await page.goto("https://eink.glitch.me/dashboard.html", { waitUntil: "networkidle2" });
+        await page.goto("http://sleepy-fork-horse.glitch.me/dashboard.html", { waitUntil: "networkidle2" });
 
         // Așteptăm x secunde suplimentare pentru a ne asigura că pagina este complet încărcată
         //await page.waitForTimeout(9000);
@@ -1138,7 +1133,7 @@ async function getBucharestTime() {
 async function getWeatherData() {
     try {
         console.log("🌦️ Obținem datele meteo...");
-        const response = await fetch('https://eink.glitch.me/api/xml');
+        const response = await fetch('http://sleepy-fork-horse.glitch.me/api/xml');
         const weatherData = await response.json();
         console.log("✅ Date meteo obținute:", weatherData);
         return weatherData;

@@ -51,7 +51,7 @@
       .weather-phenomenon {
       font-family: 'Bebas Neue', sans-serif;
       font-size: 1.8rem;
-      padding-left: 25px;
+      padding-left: 55px;
       padding-right: 25px;
       padding-top: 5px;
       text-align: left;
@@ -264,9 +264,10 @@ async function loadWeatherData() {
       throw new Error("Datele meteo pentru Băneasa nu sunt disponibile.");
     }
 
-    const temperatureValue = dataBaneasa.temperature 
-    ? Math.floor(parseFloat(dataBaneasa.temperature.replace(/[^\d.-]/g, ''))) 
+    const temperatureValue = dataBaneasa.temperature
+    ? Math.floor(parseFloat(dataBaneasa.temperature.replace(/[^\d.-]/g, '')) + 0.5)
     : "N/A";
+
     document.getElementById('weatherTemperature').textContent = `${temperatureValue}° C`;
 
     document.getElementById('weatherCloudiness').textContent = dataBaneasa.cloudiness || "N/A";

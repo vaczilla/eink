@@ -641,7 +641,7 @@ function updateWeatherData() {
     scrapeXMLWeather(); // 
 }
 
-setInterval(updateWeatherData, 25 * 60 * 1000); // Rulează o dată pe oră
+setInterval(updateWeatherData, 10 * 60 * 1000); // Rulează o dată pe oră
 
 updateWeatherData();
 
@@ -920,6 +920,20 @@ app.get("/battery", (req, res) => {
     if (fs.existsSync(BATTERY_FILE)) {
         const batteryData = JSON.parse(fs.readFileSync(BATTERY_FILE, "utf8"));
         res.json(batteryData);
+    } else {
+        res.json({ error: "No battery data available" });
+    }
+});
+
+// ✅ Endpoint pentru a obține ultima intrare din baza de date
+app.get("/battery/latest", (req, res) => {
+    if (fs.existsSync(BATTERY_FILE)) {
+        const batteryData = JSON.parse(fs.readFileSync(BATTERY_FILE, "utf8"));
+        if (batteryData.length > 0) {
+            res.json(batteryData[batteryData.length - 1]); // Returnează ultima intrare
+        } else {
+            res.json({ error: "No battery data available" });
+        }
     } else {
         res.json({ error: "No battery data available" });
     }

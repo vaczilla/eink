@@ -419,7 +419,7 @@ app.post("/use-image/:publicId", async (req, res) => {
 
 // 🟢 API pentru capturarea screenshot-ului și conversia în grayscale
 
-const intervalMinutes = 10; // Modifică valoarea pentru a schimba frecvența
+const intervalMinutes = 2; // Modifică valoarea pentru a schimba frecvența
 
 async function captureAndProcessScreenshot() {
     const pngPath = path.join(__dirname, "public", "screenshot.png");
@@ -439,11 +439,19 @@ async function captureAndProcessScreenshot() {
         await page.goto(`${BASE_URL}/dashboard.html`, { waitUntil: "networkidle2" });
 
         // Așteptăm x secunde suplimentare pentru a ne asigura că pagina este complet încărcată
-        //await page.waitForTimeout(9000);
-        await page.waitForFunction(() => {
-        const temp = document.getElementById('weatherTemperature');
-        return temp && temp.textContent.trim() !== '';
-        }, { timeout: 15000 }); // Așteaptă max 15 secunde
+        //await page.waitForFunction(() => {
+        //const temp = document.getElementById('weatherTemperature');
+        //return temp && temp.textContent.trim() !== '';
+        //}, { timeout: 15000 }); // Așteaptă max 15 secunde
+      
+      // Așteptăm ca elementul să devină vizibil în maxim 30 secunde
+        try {
+            await page.waitForSelector('#weatherTemperature', { visible: true, timeout: 30000 });
+        } catch (error) {
+            console.error("⚠️ Timeout! Elementul #weatherTemperature nu a fost găsit la timp.");
+            await browser.close();
+            return;
+        }
 
         await page.screenshot({ path: pngPath, fullPage: true });
         await browser.close();

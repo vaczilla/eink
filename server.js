@@ -439,19 +439,11 @@ async function captureAndProcessScreenshot() {
         await page.goto(`${BASE_URL}/dashboard.html`, { waitUntil: "networkidle2" });
 
         // Așteptăm x secunde suplimentare pentru a ne asigura că pagina este complet încărcată
-        //await page.waitForFunction(() => {
-        //const temp = document.getElementById('weatherTemperature');
-        //return temp && temp.textContent.trim() !== '';
-        //}, { timeout: 15000 }); // Așteaptă max 15 secunde
-      
-      // Așteptăm ca elementul să devină vizibil în maxim 30 secunde
-        try {
-            await page.waitForSelector('#weatherTemperature', { visible: true, timeout: 30000 });
-        } catch (error) {
-            console.error("⚠️ Timeout! Elementul #weatherTemperature nu a fost găsit la timp.");
-            await browser.close();
-            return;
-        }
+        await page.waitForFunction(() => {
+        const temp = document.getElementById('weatherTemperature');
+        return temp && temp.textContent.trim() !== '';
+        }, { timeout: 15000 }); // Așteaptă max 15 secunde
+    
 
         await page.screenshot({ path: pngPath, fullPage: true });
         await browser.close();
@@ -486,6 +478,8 @@ app.get("/screenshot", async (req, res) => {
     await captureAndProcessScreenshot();
     res.json({ success: true, message: "Screenshot generat manual!" });
 });
+
+
 
 
 
@@ -950,6 +944,69 @@ app.get("/battery/latest", (req, res) => {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+const VOLTAGE_FILE = "esp.json";
+const MAX_ENTRIES = 6000;
+
+// ✅ Endpoint pentru a primi datele de tensiune de la ESP32
+app.get("/updateVoltage", (req, res) => {
+    const voltage = req.query.voltage;
+
+    if (!voltage) {
+        return res.status(400).json({ error: "Missing voltage parameter" });
+    }
+
+    // Citim datele existente
+    let voltageData = [];
+    if (fs.existsSync(VOLTAGE_FILE)) {
+        voltageData = JSON.parse(fs.readFileSync(VOLTAGE_FILE, "utf8"));
+    }
+
+    // Adăugăm noua înregistrare
+    const newEntry = {
+        timestamp: new Date().toISOString(),
+        voltage: Number(voltage)
+    };
+    voltageData.push(newEntry);
+
+    // Limităm la ultimele MAX_ENTRIES înregistrări
+    if (voltageData.length > MAX_ENTRIES) {
+        voltageData = voltageData.slice(-MAX_ENTRIES);
+    }
+
+    // Salvăm datele actualizate în fișier
+    fs.writeFileSync(VOLTAGE_FILE, JSON.stringify(voltageData, null, 2));
+
+    console.log("[SERVER] Received voltage update:", newEntry);
+    res.json({ message: "Voltage status updated successfully", data: newEntry });
+});
+
+// ✅ Endpoint pentru a obține toate datele de tensiune
+app.get("/voltage", (req, res) => {
+    if (fs.existsSync(VOLTAGE_FILE)) {
+        const voltageData = JSON.parse(fs.readFileSync(VOLTAGE_FILE, "utf8"));
+        res.json(voltageData);
+    } else {
+        res.json({ error: "No voltage data available" });
+    }
+});
+
+// ✅ Endpoint pentru a obține cea mai recentă valoare a tensiunii
+app.get("/voltage/latest", (req, res) => {
+    if (fs.existsSync(VOLTAGE_FILE)) {
+        const voltageData = JSON.parse(fs.readFileSync(VOLTAGE_FILE, "utf8"));
+        if (voltageData.length > 0) {
+            res.json(voltageData[voltageData.length - 1]); // Returnează ultima înregistrare
+        } else {
+            res.json({ error: "No voltage data available" });
+        }
+    } else {
+        res.json({ error: "No voltage data available" });
+    }
+});
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // ✅ Google Translate API
 app.post("/translate", async (req, res) => {
     try {
@@ -1130,10 +1187,6 @@ async function sendToDalle(text) {
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
 
 
 

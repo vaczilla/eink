@@ -1,16 +1,16 @@
 {
   "weather": [
     {
-      "timestamp": "2025-03-09T21:49:05.096Z",
-      "temperature": "1 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/01_night.svg",
-      "windSpeed": "4  km/h",
-      "updateTime": "0:00",
+      "timestamp": "2025-03-30T19:52:16.376Z",
+      "temperature": "9 °C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/04_night.svg",
+      "windSpeed": "6  km/h",
+      "updateTime": "23:00",
       "dayIcon": "https://static.meteoblue.com/assets/images/picto/02_iday.svg",
-      "maxTemp": "20°C",
-      "minTemp": "-1°C",
+      "maxTemp": "14°C",
+      "minTemp": "6°C",
       "precipitation": "-",
-      "sunHours": "10h",
+      "sunHours": "8h",
       "precipitationProbabilities": [
         "0%",
         "0%",
@@ -19,25 +19,25 @@
         "0%",
         "0%",
         "0%",
-        "0%"
+        "5%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-03-09T21:49:05.325Z",
-    "minTemp": "2°C",
-    "maxTemp": "21°C",
-    "prognoza": "CER MAI MULT SENIN"
+    "timestamp": "2025-03-30T19:52:16.752Z",
+    "minTemp": "8°C",
+    "maxTemp": "19°C",
+    "prognoza": "CER MAI MULT NOROS, PLOAIE SLABA"
   },
   "baneasa": {
-    "timestamp": "2025-03-09T21:49:07.558Z",
-    "updateTime": "09-03-2025 ora 23:00",
-    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/1.svg",
+    "timestamp": "2025-03-30T19:52:18.131Z",
+    "updateTime": "30-03-2025 ora 22:00",
+    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/5.svg",
     "phenomenon": "N/A",
-    "temperature": "1.2 ºC",
-    "wind": "0.6 m/s",
-    "cloudiness": "cer senin",
-    "pressure": "1003.7 mb, stationara",
-    "humidity": "82%"
+    "temperature": "10.2 ºC",
+    "wind": "1.0 m/s",
+    "cloudiness": "cer acoperit",
+    "pressure": "998.3 mb, in crestere",
+    "humidity": "87%"
   }
 }

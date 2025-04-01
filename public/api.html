@@ -139,6 +139,10 @@
           </button>
           <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-battery-full"></i> Baterie
           </button>
+          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-bolt"></i> Voltaj
+          </button>
+          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-bolt"></i> Latest
+          </button>
           <div id="resultContainer" class="result-container"></div>
         </div>
             <div style="width: 95%; max-width: 800px; margin: auto;">
@@ -213,6 +217,8 @@ document.addEventListener("DOMContentLoaded", function () {
   buttons[2].addEventListener("click", () => fetchData('/API/xml'));
   buttons[3].addEventListener("click", () => fetchData('/API/programator'));
   buttons[4].addEventListener("click", () => fetchData('/battery'));
+  buttons[5].addEventListener("click", () => fetchData('/voltage'));
+  buttons[6].addEventListener("click", () => fetchData('/voltage/latest'));
 });
      
       

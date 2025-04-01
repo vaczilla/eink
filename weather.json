@@ -1,43 +1,43 @@
 {
   "weather": [
     {
-      "timestamp": "2025-04-01T13:56:28.765Z",
-      "temperature": "14 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/10_day.svg",
-      "windSpeed": "28  km/h",
-      "updateTime": "17:00",
-      "dayIcon": "https://static.meteoblue.com/assets/images/picto/03_iday.svg",
-      "maxTemp": "14°C",
-      "minTemp": "8°C",
-      "precipitation": "0-2",
-      "sunHours": "3h",
+      "timestamp": "2025-04-01T22:25:35.281Z",
+      "temperature": "12 °C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/23_night.svg",
+      "windSpeed": "17  km/h",
+      "updateTime": "1:00",
+      "dayIcon": "https://static.meteoblue.com/assets/images/picto/20_iday.svg",
+      "maxTemp": "16°C",
+      "minTemp": "11°C",
+      "precipitation": "5-10",
+      "sunHours": "1h",
       "precipitationProbabilities": [
-        "20%",
-        "10%",
+        "65%",
+        "25%",
+        "0%",
+        "5%",
         "0%",
         "0%",
-        "0%",
-        "10%",
-        "15%",
-        "35%"
+        "40%",
+        "45%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-04-01T13:56:29.133Z",
+    "timestamp": "2025-04-01T22:25:35.725Z",
     "minTemp": "9°C",
     "maxTemp": "17°C",
     "prognoza": "CER MAI MULT NOROS, PLOAIE SLABA"
   },
   "baneasa": {
-    "timestamp": "2025-04-01T13:56:30.463Z",
-    "updateTime": "01-04-2025 ora 16:00",
-    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/5.svg",
-    "phenomenon": "N/A",
-    "temperature": "15.5 ºC",
-    "wind": "4.1 m/s",
+    "timestamp": "2025-04-01T22:25:36.759Z",
+    "updateTime": "02-04-2025 ora 01:00",
+    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/49.svg",
+    "phenomenon": "aversa ploaie",
+    "temperature": "11.7 ºC",
+    "wind": "3.7 m/s",
     "cloudiness": "cer acoperit",
-    "pressure": "1002.1 mb, in scadere",
-    "humidity": "63%"
+    "pressure": "1001.7 mb, in scadere",
+    "humidity": "75%"
   }
 }

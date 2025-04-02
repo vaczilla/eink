@@ -1,43 +1,43 @@
 {
   "weather": [
     {
-      "timestamp": "2025-04-01T22:25:35.281Z",
-      "temperature": "12 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/23_night.svg",
-      "windSpeed": "17  km/h",
-      "updateTime": "1:00",
-      "dayIcon": "https://static.meteoblue.com/assets/images/picto/20_iday.svg",
-      "maxTemp": "16°C",
-      "minTemp": "11°C",
-      "precipitation": "5-10",
-      "sunHours": "1h",
+      "timestamp": "2025-04-02T13:35:08.584Z",
+      "temperature": "13 °C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/22_day.svg",
+      "windSpeed": "2  km/h",
+      "updateTime": "17:00",
+      "dayIcon": "https://static.meteoblue.com/assets/images/picto/03_iday.svg",
+      "maxTemp": "13°C",
+      "minTemp": "10°C",
+      "precipitation": "2-5",
+      "sunHours": "5h",
       "precipitationProbabilities": [
         "65%",
+        "65%",
         "25%",
-        "0%",
+        "5%",
         "5%",
         "0%",
-        "0%",
-        "40%",
-        "45%"
+        "25%",
+        "50%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-04-01T22:25:35.725Z",
+    "timestamp": "2025-04-02T13:35:08.947Z",
     "minTemp": "9°C",
     "maxTemp": "17°C",
     "prognoza": "CER MAI MULT NOROS, PLOAIE SLABA"
   },
   "baneasa": {
-    "timestamp": "2025-04-01T22:25:36.759Z",
-    "updateTime": "02-04-2025 ora 01:00",
-    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/49.svg",
-    "phenomenon": "aversa ploaie",
-    "temperature": "11.7 ºC",
-    "wind": "3.7 m/s",
+    "timestamp": "2025-04-02T13:35:10.977Z",
+    "updateTime": "02-04-2025 ora 16:00",
+    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/5.svg",
+    "phenomenon": "N/A",
+    "temperature": "15.5 ºC",
+    "wind": "1.0 m/s",
     "cloudiness": "cer acoperit",
-    "pressure": "1001.7 mb, in scadere",
-    "humidity": "75%"
+    "pressure": "1001.4 mb, in scadere",
+    "humidity": "57%"
   }
 }

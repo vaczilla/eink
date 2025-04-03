@@ -1,43 +1,43 @@
 {
   "weather": [
     {
-      "timestamp": "2025-04-02T13:35:08.584Z",
-      "temperature": "13 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/22_day.svg",
-      "windSpeed": "2  km/h",
-      "updateTime": "17:00",
-      "dayIcon": "https://static.meteoblue.com/assets/images/picto/03_iday.svg",
-      "maxTemp": "13°C",
-      "minTemp": "10°C",
-      "precipitation": "2-5",
+      "timestamp": "2025-04-03T19:46:42.182Z",
+      "temperature": "9 °C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/07_night.svg",
+      "windSpeed": "4  km/h",
+      "updateTime": "23:00",
+      "dayIcon": "https://static.meteoblue.com/assets/images/picto/16_iday.svg",
+      "maxTemp": "12°C",
+      "minTemp": "7°C",
+      "precipitation": "0-2",
       "sunHours": "5h",
       "precipitationProbabilities": [
+        "75%",
+        "30%",
         "65%",
         "65%",
-        "25%",
-        "5%",
-        "5%",
-        "0%",
-        "25%",
-        "50%"
+        "40%",
+        "65%",
+        "15%",
+        "0%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-04-02T13:35:08.947Z",
-    "minTemp": "9°C",
+    "timestamp": "2025-04-03T19:46:42.792Z",
+    "minTemp": "8°C",
     "maxTemp": "17°C",
-    "prognoza": "CER MAI MULT NOROS, PLOAIE SLABA"
+    "prognoza": "CER TEMPORAR NOROS, PLOAIE SLABA"
   },
   "baneasa": {
-    "timestamp": "2025-04-02T13:35:10.977Z",
-    "updateTime": "02-04-2025 ora 16:00",
+    "timestamp": "2025-04-03T19:46:46.080Z",
+    "updateTime": "03-04-2025 ora 22:00",
     "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/5.svg",
     "phenomenon": "N/A",
-    "temperature": "15.5 ºC",
-    "wind": "1.0 m/s",
+    "temperature": "11.4 ºC",
+    "wind": "1.2 m/s",
     "cloudiness": "cer acoperit",
-    "pressure": "1001.4 mb, in scadere",
-    "humidity": "57%"
+    "pressure": "1008.0 mb, in crestere",
+    "humidity": "77%"
   }
 }

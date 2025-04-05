@@ -1,0 +1,8 @@
+{
+  "useRelativeAlarm": true,
+  "alarmHour": 18,
+  "alarmMinute": 45,
+  "relativeAlarmMinutes": 3,
+  "lightSleepDuration": 60000000,
+  "deepSleepDuration": 300000000
+}

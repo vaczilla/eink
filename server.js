@@ -28,6 +28,7 @@ const timeZoneUrl = `http://api.timezonedb.com/v2.1/get-time-zone?key=${timeZone
 const QRCode = require("qrcode");
 const programatorFilePath = 'programator.json';
 const dbFilePath = 'db.json'
+const LOG_FILE = "log_esp.json";
 
 
 
@@ -1512,8 +1513,38 @@ app.post("/generateQR", async (req, res) => {
     }
 });
 
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Endpoint pentru primirea log-urilor de la ESP32
+app.post("/log", (req, res) => {
+    const newLog = req.body.log;
+    if (!newLog) {
+        return res.status(400).json({ error: "Log invalid" });
+    }
+    
+    let logs = [];
+    if (fs.existsSync(LOG_FILE)) {
+        logs = JSON.parse(fs.readFileSync(LOG_FILE, "utf8"));
+    }
+    
+    logs.push({ timestamp: new Date().toISOString(), message: newLog });
+    
+    fs.writeFileSync(LOG_FILE, JSON.stringify(logs, null, 2));
+    res.json({ message: "Log salvat cu succes!" });
+});
+
+// Endpoint pentru accesarea log-urilor
+app.get("/log", (req, res) => {
+    if (fs.existsSync(LOG_FILE)) {
+        res.sendFile(__dirname + "/" + LOG_FILE);
+    } else {
+        res.json({ message: "Nu există log-uri salvate." });
+    }
+});
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 

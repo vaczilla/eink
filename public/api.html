@@ -102,56 +102,58 @@
               </div>
             </div>
             
-            <!-- Afișare timp de la ultima actualizare -->
-            <div id="time-since-update" style="margin-left: 20px;">
-             <i class="fas fa-clock"></i> <span id="time-text">-- min</span>
-             </div>
-
-            
-              <!-- Container pentru baterie -->
+            <button class="btn btn-primary btn-sm"><i class="fas fa-camera"></i> Screenshot</button>
+            <button class="btn btn-warning btn-sm"><i class="fas fa-cloud-sun"></i> Update</button>
+          </div>
+         <hr />
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <div id="time-since-update" class="d-flex align-items-center">
+              <i class="fas fa-clock"></i>
+              <span>&nbsp;</span>
+              <span id="time-text">-- min</span>
+            </div>
             <div id="battery-status" class="d-flex align-items-center">
               <i id="battery-icon" class="fas fa-battery-half"></i>
-              <span>&nbsp;</span> <!-- Adaugă un spațiu -->
+              <span>&nbsp;</span>
               <span id="battery-level">--%</span>
             </div>
-            
-            
-            <!-- <img -->
-              <!--  id="logo"
-              src="https://cdn.glitch.global/3e476950-e436-4343-9a6b-76aa07b7fed2/vaka_logo.png?v=1739184199435" 
-              alt="Logo" 
-              title="Logo aplicație" 
-              class="logo-img" 
-            />-->
+            <div id="voltage-update-time" class="d-flex align-items-center">
+              <i class="fas fa-history"></i>
+              <span>&nbsp;</span>
+              <span id="voltage-time-text">-- h</span>
+            </div>
+            <div id="current-voltage" class="d-flex align-items-center">
+              <i class="fas fa-bolt"></i>
+              <span>&nbsp;</span>
+              <span id="voltage-value">-- V</span>
+            </div>
           </div>
-          <button class="btn btn-primary btn-sm" ><i class="fas fa-camera"></i> Capturează Screenshot
-          </button>
-          <button class="btn btn-warning btn-sm" ><i class="fas fa-cloud-sun"></i> Update
-          </button>
+
           <hr />
-          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-cloud"></i> Meteoblue
-          </button>
-          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-cloud-sun"></i> Baneasa
-          </button>
-          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-cloud"></i> XML
-          </button>
-          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-tasks"></i> Programator
-          </button>
-          <button class="btn btn-sm btn-outline-dark mt-2" ><i class="fas fa-battery-full"></i> Baterie
-          </button>
+          <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-cloud"></i> Meteoblue</button>
+          <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-cloud-sun"></i> Baneasa</button>
+          <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-cloud"></i> XML</button>
+          <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-tasks"></i> Programator</button>
+          <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-battery-full"></i> Baterie</button>
+          <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-bolt"></i> Voltaj</button>
+          <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-bolt"></i> Latest</button>
           <div id="resultContainer" class="result-container"></div>
         </div>
-            <div style="width: 95%; max-width: 800px; margin: auto;">
-              
-        <canvas id="batteryChart"></canvas>
-        <div class="mt-4">
-        <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(7)">Ultimele 7 zile</button>
-        <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(30)">Ultimele 30 zile</button>
-        <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData()">Toate datele</button>
+        <div style="width: 95%; max-width: 800px; margin: auto;">
+          <canvas id="batteryChart"></canvas>
+          <div class="mt-4">
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(7)">Ultimele 7 zile</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(30)">Ultimele 30 zile</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData()">Toate datele</button>
+          </div>
+          <div class="mt-4">
+            <hr />
+            <canvas id="voltageChart"></canvas>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="renderChart(7)">Ultimele 7 zile</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="renderChart(30)">Ultimele 30 zile</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="renderChart()">Toate datele</button>
+          </div>
         </div>
-
-
-    </div>
       </div>
     </div>
     
@@ -213,6 +215,8 @@ document.addEventListener("DOMContentLoaded", function () {
   buttons[2].addEventListener("click", () => fetchData('/API/xml'));
   buttons[3].addEventListener("click", () => fetchData('/API/programator'));
   buttons[4].addEventListener("click", () => fetchData('/battery'));
+  buttons[5].addEventListener("click", () => fetchData('/voltage'));
+  buttons[6].addEventListener("click", () => fetchData('/voltage/latest'));
 });
      
       
@@ -388,11 +392,116 @@ async function updateTimeSinceLastEntry() {
 updateTimeSinceLastEntry();
 
 
- /////////////////////////////////////////////////////////////////////////////////       
+ /////////////////////////////////////////////////////////////////////////////////    
+      
+      
+async function fetchVoltageData(days = null) {
+            try {
+                const response = await fetch('/voltage');
+                const data = await response.json();
+                
+                const dailyData = {};
+                data.forEach(entry => {
+                    const dateKey = moment(entry.timestamp).format('YYYY-MM-DD');
+                    if (!dailyData[dateKey]) {
+                        dailyData[dateKey] = { sum: 0, count: 0 };
+                    }
+                    dailyData[dateKey].sum += entry.voltage;
+                    dailyData[dateKey].count += 1;
+                });
+
+                let sortedDates = Object.keys(dailyData).sort((a, b) => new Date(a) - new Date(b));
+                if (days !== null) {
+                    const cutoffDate = moment().subtract(days, 'days').format('YYYY-MM-DD');
+                    sortedDates = sortedDates.filter(date => date >= cutoffDate);
+                }
+
+                return sortedDates.map(date => ({
+                    x: moment(date).toDate(),
+                    y: dailyData[date].sum / dailyData[date].count
+                }));
+            } catch (error) {
+                console.error('Error fetching voltage data:', error);
+                return [];
+            }
+        }
+
+        async function renderChart(days = null) {
+            const voltageData = await fetchVoltageData(days);
+            const ctx = document.getElementById('voltageChart').getContext('2d');
+            
+            if (window.voltageChart instanceof Chart) {
+                window.voltageChart.destroy();
+            }
+
+            window.voltageChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: voltageData.map(d => d.x),
+                    datasets: [{
+                        label: 'Daily Average Battery Voltage',
+                        data: voltageData.map(d => d.y),
+                        borderColor: 'orange',
+                        backgroundColor: 'rgba(247, 148, 29, 0.2)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: {
+                                unit: 'day',
+                                stepSize: 1
+                            },
+                            title: {
+                                display: false,
+                                text: 'Date'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: false,
+                                text: 'Average Voltage (V)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+      
+            async function updateVoltageInfo() {
+            try {
+                const response = await fetch('/voltage/latest');
+                const data = await response.json();
+                
+                const lastTimestamp = new Date(data.timestamp);
+                const now = new Date();
+                const diffHours = Math.floor((now - lastTimestamp) / (1000 * 60 * 60));
+                
+                document.getElementById("voltage-time-text").textContent = `${diffHours} h`;
+                document.getElementById("voltage-value").textContent = `${data.voltage} V`;
+            } catch (error) {
+                console.error("Eroare la obținerea datelor voltajului:", error);
+                document.getElementById("voltage-time-text").textContent = "-- h";
+                document.getElementById("voltage-value").textContent = "-- V";
+            }
+        }
+
+        renderChart();
+        updateVoltageInfo();
+        setInterval(updateVoltageInfo, 60000); // Actualizare la fiecare minut
+      
+       /////////////////////////////////////////////////////////////////////////////////
 
     </script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,43 +1,43 @@
 {
   "weather": [
     {
-      "timestamp": "2025-04-01T13:56:28.765Z",
+      "timestamp": "2025-04-05T08:08:47.746Z",
       "temperature": "14 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/10_day.svg",
-      "windSpeed": "28  km/h",
-      "updateTime": "17:00",
-      "dayIcon": "https://static.meteoblue.com/assets/images/picto/03_iday.svg",
-      "maxTemp": "14°C",
-      "minTemp": "8°C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/23_day.svg",
+      "windSpeed": "11  km/h",
+      "updateTime": "11:00",
+      "dayIcon": "https://static.meteoblue.com/assets/images/picto/16_iday.svg",
+      "maxTemp": "18°C",
+      "minTemp": "9°C",
       "precipitation": "0-2",
-      "sunHours": "3h",
+      "sunHours": "4h",
       "precipitationProbabilities": [
-        "20%",
+        "65%",
+        "0%",
+        "0%",
+        "65%",
+        "25%",
+        "25%",
         "10%",
-        "0%",
-        "0%",
-        "0%",
-        "10%",
-        "15%",
-        "35%"
+        "5%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-04-01T13:56:29.133Z",
-    "minTemp": "9°C",
-    "maxTemp": "17°C",
-    "prognoza": "CER MAI MULT NOROS, PLOAIE SLABA"
+    "timestamp": "2025-04-05T08:08:48.253Z",
+    "minTemp": "8°C",
+    "maxTemp": "21°C",
+    "prognoza": "CER PARTIAL NOROS"
   },
   "baneasa": {
-    "timestamp": "2025-04-01T13:56:30.463Z",
-    "updateTime": "01-04-2025 ora 16:00",
-    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/5.svg",
+    "timestamp": "2025-04-05T08:08:50.757Z",
+    "updateTime": "05-04-2025 ora 11:00",
+    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/3.svg",
     "phenomenon": "N/A",
-    "temperature": "15.5 ºC",
-    "wind": "4.1 m/s",
-    "cloudiness": "cer acoperit",
-    "pressure": "1002.1 mb, in scadere",
-    "humidity": "63%"
+    "temperature": "13.7 ºC",
+    "wind": "1.7 m/s",
+    "cloudiness": "cer partial noros",
+    "pressure": "997.4 mb, in scadere",
+    "humidity": "73%"
   }
 }

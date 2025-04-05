@@ -1,0 +1,132 @@
+[
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[HTTP] Încercarea 1 la: http://213.188.196.246/api/timezone/Europe/Bucharest",
+    "timestamp": 1743764289520
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[DEBUG] Cod răspuns HTTP: -5",
+    "timestamp": 1743764289764
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[ERROR] Încercare 1 eșuată. Aștept 2000 ms...",
+    "timestamp": 1743764289765
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[HTTP] Încercarea 1 la: http://213.188.196.246/api/timezone/Europe/Bucharest",
+    "timestamp": 1743768521335
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[RTC] Citire unica a temperaturii pentru a opri actualizările automate...",
+    "timestamp": 1743768521392
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[RTC] Temperatura curentă: ",
+    "timestamp": 1743768521393
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "29.75",
+    "timestamp": 1743768521393
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": " °C",
+    "timestamp": 1743768521394
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[DEBUG] Cod răspuns HTTP: -5",
+    "timestamp": 1743768521394
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[ERROR] Încercare 1 eșuată. Aștept 2000 ms...",
+    "timestamp": 1743768521394
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[HTTP] Încercarea 1 la: http://213.188.196.246/api/timezone/Europe/Bucharest",
+    "timestamp": 1743769872955
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[RTC] Citire unica a temperaturii pentru a opri actualizările automate...",
+    "timestamp": 1743769872957
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[RTC] Temperatura curentă: ",
+    "timestamp": 1743769872957
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "28.75",
+    "timestamp": 1743769872964
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": " °C",
+    "timestamp": 1743769872965
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[DEBUG] Cod răspuns HTTP: -5",
+    "timestamp": 1743769872965
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[ERROR] Încercare 1 eșuată. Aștept 2000 ms...",
+    "timestamp": 1743769872966
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[HTTP] Încercarea 2 la: http://213.188.196.246/api/timezone/Europe/Bucharest",
+    "timestamp": 1743769874533
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[DEBUG] Cod răspuns HTTP: -5",
+    "timestamp": 1743769874534
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[ERROR] Încercare 2 eșuată. Aștept 2000 ms...",
+    "timestamp": 1743769874535
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[HTTP] Încercarea 3 la: http://213.188.196.246/api/timezone/Europe/Bucharest",
+    "timestamp": 1743769876959
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[DEBUG] Cod răspuns HTTP: -5",
+    "timestamp": 1743769877295
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[ERROR] Încercare 3 eșuată. Aștept 2000 ms...",
+    "timestamp": 1743769877295
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[HTTP] Încercarea 4 la: http://213.188.196.246/api/timezone/Europe/Bucharest",
+    "timestamp": 1743769878433
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[DEBUG] Cod răspuns HTTP: -5",
+    "timestamp": 1743769878516
+  },
+  {
+    "topic": "esp32/kindle/log",
+    "message": "[ERROR] Încercare 4 eșuată. Aștept 2000 ms...",
+    "timestamp": 1743769878516
+  }
+]

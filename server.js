@@ -1546,7 +1546,48 @@ app.get("/log", (req, res) => {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// 🔸 Middleware pentru a parsa corpul JSON al cererilor
+app.use(express.json());
 
+// 🔹 Servește fișierele statice (ex: HTML, JS, CSS)
+app.use(express.static("public"));
+
+// 🔸 Calea către fișierul de config
+const configPath = path.join(__dirname, "config.json");
+
+// 🔹 API: Returnează conținutul config.json
+app.get("/config", (req, res) => {
+  fs.readFile(configPath, "utf8", (err, data) => {
+    if (err) {
+      console.error("Eroare la citirea config.json:", err);
+      return res.status(500).json({ error: "Eroare la citirea fișierului" });
+    }
+
+    try {
+      const config = JSON.parse(data);
+      res.json(config);
+    } catch (parseErr) {
+      console.error("Eroare la parsarea JSON:", parseErr);
+      res.status(500).json({ error: "Config invalid" });
+    }
+  });
+});
+
+// 🔹 API: Primește configurarea și o salvează în config.json
+app.post("/config", (req, res) => {
+  const newConfig = req.body;
+
+  // 💡 Opțional: poți valida datele aici dacă vrei
+
+  fs.writeFile(configPath, JSON.stringify(newConfig, null, 2), (err) => {
+    if (err) {
+      console.error("Eroare la scrierea config.json:", err);
+      return res.status(500).json({ error: "Eroare la salvare" });
+    }
+    res.json({ message: "Config salvat cu succes" });
+  });
+});
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 🚀 Pornim serverul
 app.listen(PORT, () => {

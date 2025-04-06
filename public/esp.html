@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Config Editor</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; }
+    label { display: block; margin-top: 15px; }
+    input[type="number"], input[type="checkbox"] { width: 100%; padding: 8px; }
+    button { margin-top: 20px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h2>Editare Config ESP32</h2>
+  <form id="config-form">
+    <label>
+      <input type="checkbox" id="useRelativeAlarm" />
+      Folosește alarmă relativă
+    </label>
+
+    <label>
+      Ora alarmei:
+      <input type="number" id="alarmHour" min="0" max="23" />
+    </label>
+
+    <label>
+      Minutul alarmei:
+      <input type="number" id="alarmMinute" min="0" max="59" />
+    </label>
+
+    <label>
+      Minute pentru alarmă relativă:
+      <input type="number" id="relativeAlarmMinutes" min="1" />
+    </label>
+
+    <label>
+      Light Sleep Duration (minute):
+      <input type="number" id="lightSleepDuration" />
+    </label>
+
+    <label>
+      Deep Sleep Duration (minute):
+      <input type="number" id="deepSleepDuration" />
+    </label>
+
+    <button type="submit">Salvează Config</button>
+  </form>
+
+  <p id="status"></p>
+
+  <script>
+    async function loadConfig() {
+      const res = await fetch('/config');
+      const config = await res.json();
+
+      for (const key in config) {
+        const input = document.getElementById(key);
+        if (input) {
+          if (input.type === 'checkbox') {
+            input.checked = config[key];
+          } else if (key === 'lightSleepDuration' || key === 'deepSleepDuration') {
+            // Conversie din μs în minute pentru afișare
+            input.value = config[key] / (60 * 1_000_000);
+          } else {
+            input.value = config[key];
+          }
+        }
+      }
+    }
+
+    async function saveConfig(event) {
+      event.preventDefault();
+
+      // Citim valorile din formular și convertim în μs
+      const lightSleepMinutes = parseInt(document.getElementById('lightSleepDuration').value);
+      const deepSleepMinutes = parseInt(document.getElementById('deepSleepDuration').value);
+
+      const config = {
+        useRelativeAlarm: document.getElementById('useRelativeAlarm').checked,
+        alarmHour: parseInt(document.getElementById('alarmHour').value),
+        alarmMinute: parseInt(document.getElementById('alarmMinute').value),
+        relativeAlarmMinutes: parseInt(document.getElementById('relativeAlarmMinutes').value),
+        lightSleepDuration: lightSleepMinutes * 60 * 1_000_000,
+        deepSleepDuration: deepSleepMinutes * 60 * 1_000_000
+      };
+
+      const res = await fetch('/config', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(config)
+      });
+
+      document.getElementById('status').textContent = res.ok ? 'Config salvat!' : 'Eroare la salvare';
+    }
+
+    document.getElementById('config-form').addEventListener('submit', saveConfig);
+    loadConfig();
+  </script>
+</body>
+</html>

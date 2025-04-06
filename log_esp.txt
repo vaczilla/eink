@@ -1,0 +1,55 @@
+[2025-04-06T12:12:28.996Z]
+✅ Config descărcat cu succes:
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+✅ Valori baterie kindle descărcate
+
+
+[2025-04-06T12:17:44.690Z]
+[BATTERY] Verificare nivel baterie...
+✅ Valori baterie kindle descărcate
+
+
+[2025-04-06T12:23:01.944Z]
+[BATTERY] Verificare nivel baterie...
+✅ Valori baterie kindle descărcate
+
+
+[2025-04-06T12:28:18.942Z]
+[BATTERY] Verificare nivel baterie...
+✅ Valori baterie kindle descărcate
+
+
+[2025-04-06T12:33:35.748Z]
+[BATTERY] Verificare nivel baterie...
+✅ Valori baterie kindle descărcate
+
+
+[2025-04-06T12:38:52.408Z]
+[BATTERY] Verificare nivel baterie...
+✅ Valori baterie kindle descărcate
+
+
+[2025-04-06T12:44:09.429Z]
+[BATTERY] Verificare nivel baterie...
+✅ Valori baterie kindle descărcate
+
+
+[2025-04-06T13:45:47.157Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🟡 Bateria tot sub pragul de încărcare, mențin starea curentă. Intru în light sleep.
+[SLEEP] ✅ ESP intră în light sleep...
+
+

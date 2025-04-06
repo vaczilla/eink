@@ -28,7 +28,7 @@ const timeZoneUrl = `http://api.timezonedb.com/v2.1/get-time-zone?key=${timeZone
 const QRCode = require("qrcode");
 const programatorFilePath = 'programator.json';
 const dbFilePath = 'db.json'
-const LOG_FILE = "log_esp.json";
+const LOG_PATH = path.join(__dirname, "log_esp.txt");
 
 
 
@@ -1516,33 +1516,37 @@ app.post("/generateQR", async (req, res) => {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// ✅ Endpoint pentru primirea log-urilor de la ESP32
+// ✅ Middleware ca să poți primi plain text
+app.use("/log", express.text());
+
 app.post("/log", (req, res) => {
-    const newLog = req.body.log;
-    if (!newLog) {
-        return res.status(400).json({ error: "Log invalid" });
+  const content = req.body;
+
+  if (!content || content.trim() === "") {
+    return res.status(400).send("No content received.");
+  }
+
+  // Adăugăm timestamp
+  const logEntry = `[${new Date().toISOString()}]\n${content}\n\n`;
+
+  fs.appendFile(LOG_PATH, logEntry, (err) => {
+    if (err) {
+      console.error("Eroare la salvarea logului:", err);
+      return res.status(500).send("Eroare la scriere.");
     }
-    
-    let logs = [];
-    if (fs.existsSync(LOG_FILE)) {
-        logs = JSON.parse(fs.readFileSync(LOG_FILE, "utf8"));
-    }
-    
-    logs.push({ timestamp: new Date().toISOString(), message: newLog });
-    
-    fs.writeFileSync(LOG_FILE, JSON.stringify(logs, null, 2));
-    res.json({ message: "Log salvat cu succes!" });
+    res.status(200).send("Log salvat cu succes!");
+  });
 });
 
-// ✅ Endpoint pentru accesarea log-urilor
+
+// ✅ Middleware ca accesez xontinutul prin API
 app.get("/log", (req, res) => {
-    if (fs.existsSync(LOG_FILE)) {
-        res.sendFile(__dirname + "/" + LOG_FILE);
-    } else {
-        res.json({ message: "Nu există log-uri salvate." });
-    }
+  fs.readFile(LOG_PATH, "utf-8", (err, data) => {
+    if (err) return res.status(500).send("Eroare la citirea logului.");
+    res.set("Content-Type", "text/plain");
+    res.send(data);
+  });
 });
-
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

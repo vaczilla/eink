@@ -42,59 +42,114 @@
       Deep Sleep Duration (minute):
       <input type="number" id="deepSleepDuration" />
     </label>
+    
+    <label>
+      Prag baterie maxim (%):
+      <input type="number" id="batteryCutoffHigh" min="1" max="100" />
+    </label>
+
+    <label>
+      Prag baterie minim (%):
+      <input type="number" id="batteryCutoffLow" min="0" max="99" />
+    </label>
 
     <button type="submit">Salvează Config</button>
   </form>
 
   <p id="status"></p>
 
-  <script>
-    async function loadConfig() {
-      const res = await fetch('/config');
-      const config = await res.json();
+  <hr>
+<h2>Simulează nivelul bateriei</h2>
+<form id="battery-form">
+  <label>
+    Nivel baterie (%):
+    <input type="number" id="batteryLevel" min="0" max="100" />
+  </label>
 
-      for (const key in config) {
-        const input = document.getElementById(key);
-        if (input) {
-          if (input.type === 'checkbox') {
-            input.checked = config[key];
-          } else if (key === 'lightSleepDuration' || key === 'deepSleepDuration') {
-            // Conversie din μs în minute pentru afișare
-            input.value = config[key] / (60 * 1_000_000);
-          } else {
-            input.value = config[key];
-          }
+  <label>
+    Dispozitiv încarcă:
+    <input type="checkbox" id="isCharging" />
+  </label>
+
+  <button type="submit">Trimite nivel baterie</button>
+</form>
+
+<p id="battery-status"></p>
+  
+  
+<script>
+  async function loadConfig() {
+    const res = await fetch('/config');
+    const config = await res.json();
+
+    for (const key in config) {
+      const input = document.getElementById(key);
+      if (input) {
+        if (input.type === 'checkbox') {
+          input.checked = config[key];
+        } else if (key === 'lightSleepDuration' || key === 'deepSleepDuration') {
+          // Conversie din μs în minute pentru afișare
+          input.value = config[key] / (60 * 1_000_000);
+        } else {
+          input.value = config[key]; // Pentru valori numerice simple
         }
       }
     }
+  }
 
-    async function saveConfig(event) {
-      event.preventDefault();
+  async function saveConfig(event) {
+    event.preventDefault();
 
-      // Citim valorile din formular și convertim în μs
-      const lightSleepMinutes = parseInt(document.getElementById('lightSleepDuration').value);
-      const deepSleepMinutes = parseInt(document.getElementById('deepSleepDuration').value);
+    const lightSleepMinutes = parseInt(document.getElementById('lightSleepDuration').value);
+    const deepSleepMinutes = parseInt(document.getElementById('deepSleepDuration').value);
+    const batteryCutoffHigh = parseInt(document.getElementById('batteryCutoffHigh').value);
+    const batteryCutoffLow = parseInt(document.getElementById('batteryCutoffLow').value);
 
-      const config = {
-        useRelativeAlarm: document.getElementById('useRelativeAlarm').checked,
-        alarmHour: parseInt(document.getElementById('alarmHour').value),
-        alarmMinute: parseInt(document.getElementById('alarmMinute').value),
-        relativeAlarmMinutes: parseInt(document.getElementById('relativeAlarmMinutes').value),
-        lightSleepDuration: lightSleepMinutes * 60 * 1_000_000,
-        deepSleepDuration: deepSleepMinutes * 60 * 1_000_000
-      };
+    const config = {
+      useRelativeAlarm: document.getElementById('useRelativeAlarm').checked,
+      alarmHour: parseInt(document.getElementById('alarmHour').value),
+      alarmMinute: parseInt(document.getElementById('alarmMinute').value),
+      relativeAlarmMinutes: parseInt(document.getElementById('relativeAlarmMinutes').value),
+      lightSleepDuration: lightSleepMinutes * 60 * 1_000_000,
+      deepSleepDuration: deepSleepMinutes * 60 * 1_000_000,
+      batteryCutoffHigh,
+      batteryCutoffLow
+    };
 
-      const res = await fetch('/config', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(config)
-      });
+    const res = await fetch('/config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(config)
+    });
 
-      document.getElementById('status').textContent = res.ok ? 'Config salvat!' : 'Eroare la salvare';
+    document.getElementById('status').textContent = res.ok ? 'Config salvat!' : 'Eroare la salvare';
+  }
+
+  document.getElementById('config-form').addEventListener('submit', saveConfig);
+  window.addEventListener('DOMContentLoaded', loadConfig);
+  
+  
+  async function sendBatteryUpdate(event) {
+    event.preventDefault();
+
+    const level = parseInt(document.getElementById('batteryLevel').value);
+    const isCharging = document.getElementById('isCharging').checked ? 1 : 0;
+
+    const url = `https://thundering-bony-melody.glitch.me/updateBattery?batteryLevel=${level}&isCharging=${isCharging}`;
+
+    try {
+      const res = await fetch(url);
+      document.getElementById('battery-status').textContent =
+        res.ok ? 'Nivel baterie trimis!' : 'Eroare la trimitere';
+    } catch (err) {
+      document.getElementById('battery-status').textContent = 'Eroare la conectare';
     }
+  }
 
-    document.getElementById('config-form').addEventListener('submit', saveConfig);
-    loadConfig();
-  </script>
+  document.getElementById('battery-form').addEventListener('submit', sendBatteryUpdate);
+  
+  
+</script>
+
 </body>
 </html>

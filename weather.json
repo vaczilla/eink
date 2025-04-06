@@ -1,11 +1,11 @@
 {
   "weather": [
     {
-      "timestamp": "2025-04-06T13:38:05.735Z",
+      "timestamp": "2025-04-06T16:08:05.852Z",
       "temperature": "3 °C",
       "svgIcon": "https://static.meteoblue.com/assets/images/picto/22_day.svg",
-      "windSpeed": "11  km/h",
-      "updateTime": "15:00",
+      "windSpeed": "15  km/h",
+      "updateTime": "19:00",
       "dayIcon": "https://static.meteoblue.com/assets/images/picto/16_iday.svg",
       "maxTemp": "11°C",
       "minTemp": "0°C",
@@ -17,27 +17,27 @@
         "95%",
         "95%",
         "75%",
-        "40%",
-        "10%",
+        "65%",
+        "65%",
         "25%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-04-06T13:38:05.882Z",
+    "timestamp": "2025-04-06T16:08:06.203Z",
     "minTemp": "1°C",
     "maxTemp": "8°C",
     "prognoza": "CER MAI NOROS, PRECIPITATII MIXTE"
   },
   "baneasa": {
-    "timestamp": "2025-04-06T13:38:07.251Z",
-    "updateTime": "06-04-2025 ora 16:00",
+    "timestamp": "2025-04-06T16:08:07.742Z",
+    "updateTime": "06-04-2025 ora 19:00",
     "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/5.svg",
     "phenomenon": "N/A",
-    "temperature": "3.8 ºC",
-    "wind": "0.8 m/s",
+    "temperature": "4.5 ºC",
+    "wind": "2.1 m/s",
     "cloudiness": "cer acoperit",
-    "pressure": "998.8 mb, in crestere",
-    "humidity": "86%"
+    "pressure": "999.4 mb, variabila",
+    "humidity": "82%"
   }
 }

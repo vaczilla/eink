@@ -67,7 +67,7 @@
         margin-right: 8px;
       }
       .result-container {
-        height: 250px;
+        height: 200px;
         overflow-y: auto;
         border: 1px solid #ccc;
         padding: 10px;
@@ -75,7 +75,26 @@
         margin-bottom: 5px;
         border-radius: 5px;
         background-color: #f9f9f9;
-       }
+      }
+
+      @media (max-width: 768px) {
+     #config-form .col-md-6,
+     #battery-form .col-md-6 {
+        width: 50%;
+        flex: 0 0 50%;
+        padding-right: 8px;
+  }
+}
+
+.custom-switch-lg .form-check-input {
+  width: 4rem;
+  height: 1.9rem;
+}
+
+.custom-switch-lg .form-check-input:checked {
+  background-color: #198754;
+}
+     }
 
 
         
@@ -133,25 +152,124 @@
           <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-cloud"></i> Meteoblue</button>
           <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-cloud-sun"></i> Baneasa</button>
           <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-cloud"></i> XML</button>
+          <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-receipt"></i> Log</button>
           <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-tasks"></i> Programator</button>
           <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-battery-full"></i> Baterie</button>
           <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-bolt"></i> Voltaj</button>
           <button class="btn btn-sm btn-outline-dark mt-2"><i class="fas fa-bolt"></i> Latest</button>
           <div id="resultContainer" class="result-container"></div>
         </div>
+        
+        
+        
+        
+        
+<div class="container-xl my-4">
+  <div id="configContainer" class="p-4 rounded shadow-sm bg-light border">
+
+    <h4 class="mb-4">Editare Config ESP32</h4>
+    <form id="config-form" class="row g-3">
+
+      <!-- Ora și minutul alarmei -->
+      <div class="col-md-6">
+        <label for="alarmHour" class="form-label">Ora alarmei</label>
+        <input type="number" class="form-control" id="alarmHour" min="0" max="23">
+      </div>
+
+      <div class="col-md-6">
+        <label for="alarmMinute" class="form-label">Minutul alarmei</label>
+        <input type="number" class="form-control" id="alarmMinute" min="0" max="59">
+      </div>
+
+      <!-- Alarmă relativă și minute -->
+      <div class="col-md-6">
+        <label for="useRelativeAlarm" class="form-label">Alarmă relativă</label>
+        <div class="form-check form-switch custom-switch-lg">
+        <input class="form-check-input" type="checkbox" id="useRelativeAlarm">
+      </div>
+     </div>
+
+      <div class="col-md-6">
+        <label for="relativeAlarmMinutes" class="form-label">Minute AR</label>
+        <input type="number" class="form-control" id="relativeAlarmMinutes" min="1">
+      </div>
+
+      <!-- Sleep durations -->
+      <div class="col-md-6">
+        <label for="lightSleepDuration" class="form-label">Light Sleep (minute)</label>
+        <input type="number" class="form-control" id="lightSleepDuration">
+      </div>
+
+      <div class="col-md-6">
+        <label for="deepSleepDuration" class="form-label">Deep Sleep (minute)</label>
+        <input type="number" class="form-control" id="deepSleepDuration">
+      </div>
+
+      <!-- Prag baterie -->
+      <div class="col-md-6">
+        <label for="batteryCutoffHigh" class="form-label">Prag baterie max (%)</label>
+        <input type="number" class="form-control" id="batteryCutoffHigh" min="1" max="100">
+      </div>
+
+      <div class="col-md-6">
+        <label for="batteryCutoffLow" class="form-label">Prag baterie min (%)</label>
+        <input type="number" class="form-control" id="batteryCutoffLow" min="0" max="99">
+      </div>
+
+      <!-- Buton salvare -->
+      <div class="col-md-6">
+        <button type="submit" class="btn btn-sm btn-success">💾 Salvează</button>
+      </div>
+    </form>
+
+    <p id="status" class="mt-3"></p>
+
+    <hr class="my-5">
+
+    <h4 class="mb-4">🔋 Simulează nivelul bateriei</h4>
+    <form id="battery-form" class="row g-3">
+
+      <div class="col-md-6">
+        <label for="batteryLevel" class="form-label">Nivel baterie (%)</label>
+        <input type="number" class="form-control" id="batteryLevel" min="0" max="100">
+      </div>
+
+      <div class="col-12 form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="isCharging">
+        <label class="form-check-label" for="isCharging">Dispozitiv încarcă</label>
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-sm btn-primary">📤 Trimite nivel baterie</button>
+      </div>
+    </form>
+
+    <p id="battery-status" class="mt-3"></p>
+
+  </div>
+</div>
+
+
+
+
+        
+        
+        
+        
+        
         <div style="width: 95%; max-width: 800px; margin: auto;">
           <canvas id="batteryChart"></canvas>
           <div class="mt-4">
-            <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(7)">Ultimele 7 zile</button>
-            <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(30)">Ultimele 30 zile</button>
-            <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData()">Toate datele</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(7)"><i class="fas fa-calendar-week"></i> Ultimele 7 zile</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData(30)"><i class="fas fa-calendar-alt"></i> Ultimele 30 zile</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="fetchBatteryData()"><i class="fas fa-chart-line"></i> Toate datele</button>
           </div>
           <div class="mt-4">
             <hr />
             <canvas id="voltageChart"></canvas>
-            <button class="btn btn-sm btn-outline-dark mt-2" onclick="renderChart(7)">Ultimele 7 zile</button>
-            <button class="btn btn-sm btn-outline-dark mt-2" onclick="renderChart(30)">Ultimele 30 zile</button>
-            <button class="btn btn-sm btn-outline-dark mt-2" onclick="renderChart()">Toate datele</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="renderChart(7)"><i class="fas fa-calendar-week"></i> Ultimele 7 zile</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="renderChart(30)"><i class="fas fa-calendar-alt"></i> Ultimele 30 zile</button>
+            <button class="btn btn-sm btn-outline-dark mt-2" onclick="renderChart()"><i class="fas fa-chart-line"></i> Toate datele</button>
           </div>
         </div>
       </div>
@@ -161,13 +279,23 @@
       
 document.addEventListener("DOMContentLoaded", function () {
   function fetchData(apiEndpoint) {
-    fetch(apiEndpoint)
-      .then(response => response.json())
-      .then(data => {
-        document.getElementById("resultContainer").innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
-      })
-      .catch(() => showToast("Eroare la preluarea datelor", "danger"));
-  }
+  fetch(apiEndpoint)
+    .then(response => {
+      const contentType = response.headers.get("content-type");
+      if (contentType && contentType.includes("application/json")) {
+        return response.json().then(data => {
+          document.getElementById("resultContainer").innerHTML =
+            `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        });
+      } else {
+        return response.text().then(text => {
+          document.getElementById("resultContainer").innerHTML =
+            `<pre>${text}</pre>`;
+        });
+      }
+    })
+    .catch(() => showToast("Eroare la preluarea datelor", "danger"));
+}
 
   function triggerUpdate() {
     fetch("/update")
@@ -213,10 +341,12 @@ document.addEventListener("DOMContentLoaded", function () {
   buttons[0].addEventListener("click", () => fetchData('/API/weather'));
   buttons[1].addEventListener("click", () => fetchData('/API/baneasa'));
   buttons[2].addEventListener("click", () => fetchData('/API/xml'));
-  buttons[3].addEventListener("click", () => fetchData('/API/programator'));
-  buttons[4].addEventListener("click", () => fetchData('/battery'));
-  buttons[5].addEventListener("click", () => fetchData('/voltage'));
-  buttons[6].addEventListener("click", () => fetchData('/voltage/latest'));
+  buttons[3].addEventListener("click", () => fetchData('/log'));
+  buttons[4].addEventListener("click", () => fetchData('/API/programator'));
+  buttons[5].addEventListener("click", () => fetchData('/battery'));
+  buttons[6].addEventListener("click", () => fetchData('/voltage'));
+  buttons[7].addEventListener("click", () => fetchData('/voltage/latest'));
+
 });
      
       
@@ -495,6 +625,77 @@ async function fetchVoltageData(days = null) {
         setInterval(updateVoltageInfo, 60000); // Actualizare la fiecare minut
       
        /////////////////////////////////////////////////////////////////////////////////
+      
+      async function loadConfig() {
+    const res = await fetch('/config');
+    const config = await res.json();
+
+    for (const key in config) {
+      const input = document.getElementById(key);
+      if (input) {
+        if (input.type === 'checkbox') {
+          input.checked = config[key];
+        } else if (key === 'lightSleepDuration' || key === 'deepSleepDuration') {
+          // Conversie din μs în minute pentru afișare
+          input.value = config[key] / (60 * 1_000_000);
+        } else {
+          input.value = config[key]; // Pentru valori numerice simple
+        }
+      }
+    }
+  }
+
+  async function saveConfig(event) {
+    event.preventDefault();
+
+    const lightSleepMinutes = parseInt(document.getElementById('lightSleepDuration').value);
+    const deepSleepMinutes = parseInt(document.getElementById('deepSleepDuration').value);
+    const batteryCutoffHigh = parseInt(document.getElementById('batteryCutoffHigh').value);
+    const batteryCutoffLow = parseInt(document.getElementById('batteryCutoffLow').value);
+
+    const config = {
+      useRelativeAlarm: document.getElementById('useRelativeAlarm').checked,
+      alarmHour: parseInt(document.getElementById('alarmHour').value),
+      alarmMinute: parseInt(document.getElementById('alarmMinute').value),
+      relativeAlarmMinutes: parseInt(document.getElementById('relativeAlarmMinutes').value),
+      lightSleepDuration: lightSleepMinutes * 60 * 1_000_000,
+      deepSleepDuration: deepSleepMinutes * 60 * 1_000_000,
+      batteryCutoffHigh,
+      batteryCutoffLow
+    };
+
+    const res = await fetch('/config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(config)
+    });
+
+    document.getElementById('status').textContent = res.ok ? 'Config salvat!' : 'Eroare la salvare';
+  }
+
+  document.getElementById('config-form').addEventListener('submit', saveConfig);
+  window.addEventListener('DOMContentLoaded', loadConfig);
+  
+  
+  async function sendBatteryUpdate(event) {
+    event.preventDefault();
+
+    const level = parseInt(document.getElementById('batteryLevel').value);
+    const isCharging = document.getElementById('isCharging').checked ? 1 : 0;
+
+    const url = `https://thundering-bony-melody.glitch.me/updateBattery?batteryLevel=${level}&isCharging=${isCharging}`;
+
+    try {
+      const res = await fetch(url);
+      document.getElementById('battery-status').textContent =
+        res.ok ? 'Nivel baterie trimis!' : 'Eroare la trimitere';
+    } catch (err) {
+      document.getElementById('battery-status').textContent = 'Eroare la conectare';
+    }
+  }
+
+  document.getElementById('battery-form').addEventListener('submit', sendBatteryUpdate);
+  
 
     </script>
     
@@ -502,6 +703,5 @@ async function fetchVoltageData(days = null) {
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,43 +1,43 @@
 {
   "weather": [
     {
-      "timestamp": "2025-04-05T12:04:24.052Z",
-      "temperature": "17 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/07_day.svg",
-      "windSpeed": "22  km/h",
-      "updateTime": "15:00",
-      "dayIcon": "https://static.meteoblue.com/assets/images/picto/07_iday.svg",
-      "maxTemp": "17°C",
-      "minTemp": "9°C",
-      "precipitation": "0-2",
-      "sunHours": "6h",
+      "timestamp": "2025-04-06T07:49:28.628Z",
+      "temperature": "0 °C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/23_day.svg",
+      "windSpeed": "11  km/h",
+      "updateTime": "11:00",
+      "dayIcon": "https://static.meteoblue.com/assets/images/picto/16_iday.svg",
+      "maxTemp": "11°C",
+      "minTemp": "0°C",
+      "precipitation": "2-5",
+      "sunHours": "1h",
       "precipitationProbabilities": [
-        "65%",
-        "0%",
         "0%",
         "65%",
-        "15%",
-        "20%",
-        "5%",
-        "0%"
+        "90%",
+        "90%",
+        "80%",
+        "40%",
+        "10%",
+        "20%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-04-05T12:04:24.728Z",
+    "timestamp": "2025-04-06T07:49:29.152Z",
     "minTemp": "6°C",
     "maxTemp": "7°C",
     "prognoza": "CER MAI MULT NOROS, PLOAIE SLABA"
   },
   "baneasa": {
-    "timestamp": "2025-04-05T12:04:26.955Z",
-    "updateTime": "05-04-2025 ora 15:00",
-    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/3.svg",
-    "phenomenon": "N/A",
-    "temperature": "20.5 ºC",
-    "wind": "3.2 m/s",
-    "cloudiness": "cer partial noros",
-    "pressure": "993.9 mb, variabila",
-    "humidity": "46%"
+    "timestamp": "2025-04-06T07:49:31.964Z",
+    "updateTime": "06-04-2025 ora 10:00",
+    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/39.svg",
+    "phenomenon": "aversa lapovita",
+    "temperature": "1.5 ºC",
+    "wind": "3.0 m/s",
+    "cloudiness": "cer acoperit",
+    "pressure": "994.0 mb, variabila",
+    "humidity": "96%"
   }
 }

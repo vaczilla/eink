@@ -1516,7 +1516,7 @@ app.post("/generateQR", async (req, res) => {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Endpoint pentru primirea log-urilor de la ESP32
+// ✅ Endpoint pentru primirea log-urilor de la ESP32
 app.post("/log", (req, res) => {
     const newLog = req.body.log;
     if (!newLog) {
@@ -1534,7 +1534,7 @@ app.post("/log", (req, res) => {
     res.json({ message: "Log salvat cu succes!" });
 });
 
-// Endpoint pentru accesarea log-urilor
+// ✅ Endpoint pentru accesarea log-urilor
 app.get("/log", (req, res) => {
     if (fs.existsSync(LOG_FILE)) {
         res.sendFile(__dirname + "/" + LOG_FILE);
@@ -1587,6 +1587,8 @@ app.post("/config", (req, res) => {
     res.json({ message: "Config salvat cu succes" });
   });
 });
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 🚀 Pornim serverul

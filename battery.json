@@ -12238,5 +12238,30 @@
     "timestamp": "2025-04-06T13:46:50.235Z",
     "batteryLevel": 96,
     "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-06T16:17:09.084Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-06T16:17:11.933Z",
+    "batteryLevel": 96,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-06T19:05:30.438Z",
+    "batteryLevel": 93,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-06T19:52:20.127Z",
+    "batteryLevel": null,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-06T20:02:05.001Z",
+    "batteryLevel": 97,
+    "isCharging": false
   }
 ]

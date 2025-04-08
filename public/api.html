@@ -68,7 +68,7 @@
         margin-right: 8px;
       }
       .result-container {
-        height: 200px;
+        height: 210px;
         overflow-y: auto;
         border: 1px solid #ccc;
         padding: 10px;
@@ -86,7 +86,7 @@
         padding-right: 8px;
      }
         .btn-fixed {
-    min-width: 100px;
+    min-width: 85px;
   }
 }
 
@@ -302,6 +302,11 @@
     <script>
       
 document.addEventListener("DOMContentLoaded", function () {
+  
+   // Încarcă automat ASCI.txt la încărcarea paginii
+  fetchData('/ASCI.txt');
+  
+  
   function fetchData(apiEndpoint) {
   fetch(apiEndpoint)
     .then(response => {
@@ -499,7 +504,7 @@ async function fetchBatteryData(days = null) {
             options: {
                 responsive: true,
                 scales: {
-                    y: { beginAtZero: false, suggestedMin: 50, suggestedMax: 100 }
+                    y: { beginAtZero: true, suggestedMin: 50, suggestedMax: 100 }
                 }
             }
         });
@@ -616,6 +621,7 @@ async function fetchVoltageData(days = null) {
                             }
                         },
                         y: {
+                            beginAtZero: true,
                             title: {
                                 display: false,
                                 text: 'Average Voltage (V)'

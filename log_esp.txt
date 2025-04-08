@@ -1307,3 +1307,707 @@
 [SLEEP] ✅ Intrare in Deep Sleep...
 
 
+[2025-04-06T20:39:00.834Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T20:45:18.037Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T20:51:35.325Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T20:57:52.366Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T21:04:09.302Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T21:10:27.430Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T21:16:44.026Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T21:23:01.029Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T21:29:17.730Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T21:35:34.830Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T21:41:51.846Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T21:48:09.015Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T21:54:26.229Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T22:00:42.977Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T22:06:59.970Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T22:13:16.819Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T22:19:33.954Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T22:25:50.822Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T22:32:07.534Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T22:38:24.244Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T22:44:41.095Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-06T22:50:57.304Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-07T10:45:51.956Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-07T21:22:58.274Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-08T13:31:24.679Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-08T13:37:40.889Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-08T13:43:58.081Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-08T13:50:14.805Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-08T13:56:31.427Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-08T13:57:13.438Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-08T14:03:28.340Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+
+[2025-04-08T14:08:04.428Z]
+✅ ESP32 pornit.
+
+✅ WiFi conectat!
+[RTC] ✅ Citire unica a temperaturii pentru a opri actualizările automate...
+✅ RTC initializat cu succes!
+[CONFIGURATION]✅ Config descărcat cu succes:
+[NTP] ✅ Sincronizare RTC cu NTP...
+[NTP] ✅ Sincronizare reușită!
+[VOLTAGE] ✅ Tensiune citita cu succes
+[SERVER] ✅ Trimitere tensiune catre server...
+[BATTERY] Verificare nivel baterie...
+[BATTERY] ✅ Valori baterie kindle descărcate
+[ACTION] 🔋 Bateria peste pragul de incarcare, setez alarma și intru în deep sleep.
+[RTC] ✅ Resetare alarma 1
+[RTC] ✅ Dezactivare alarma 2
+[RTC] ✅ SQW OFF
+[RTC] ✅ Dezactivare oscilator 32khz
+[RTC] ✅ Setare alarma fixa
+[SLEEP] ✅ Intrare in Deep Sleep...
+
+

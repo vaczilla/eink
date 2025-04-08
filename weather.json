@@ -1,43 +1,43 @@
 {
   "weather": [
     {
-      "timestamp": "2025-04-06T20:30:16.338Z",
-      "temperature": "0 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/22_night.svg",
-      "windSpeed": "28  km/h",
-      "updateTime": "23:00",
-      "dayIcon": "https://static.meteoblue.com/assets/images/picto/16_iday.svg",
-      "maxTemp": "11°C",
-      "minTemp": "0°C",
-      "precipitation": "5-10",
-      "sunHours": "1h",
+      "timestamp": "2025-04-08T14:24:57.944Z",
+      "temperature": "8 °C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/01_day.svg",
+      "windSpeed": "4  km/h",
+      "updateTime": "17:00",
+      "dayIcon": "https://static.meteoblue.com/assets/images/picto/01_iday.svg",
+      "maxTemp": "8°C",
+      "minTemp": "-2°C",
+      "precipitation": "0-2",
+      "sunHours": "11h",
       "precipitationProbabilities": [
+        "65%",
         "0%",
-        "55%",
-        "95%",
-        "95%",
-        "75%",
-        "65%",
-        "65%",
-        "45%"
+        "0%",
+        "0%",
+        "0%",
+        "0%",
+        "0%",
+        "0%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-04-06T20:30:16.950Z",
+    "timestamp": "2025-04-08T14:24:58.390Z",
     "minTemp": "1°C",
-    "maxTemp": "8°C",
-    "prognoza": "CER MAI NOROS, PRECIPITATII MIXTE"
+    "maxTemp": "11°C",
+    "prognoza": "CER PARTIAL NOROS"
   },
   "baneasa": {
-    "timestamp": "2025-04-06T20:30:19.048Z",
-    "updateTime": "06-04-2025 ora 23:00",
-    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/5.svg",
+    "timestamp": "2025-04-08T14:24:59.626Z",
+    "updateTime": "08-04-2025 ora 17:00",
+    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/3.svg",
     "phenomenon": "N/A",
-    "temperature": "3.4 ºC",
-    "wind": "2.3 m/s",
-    "cloudiness": "cer acoperit",
-    "pressure": "1002.6 mb, in crestere",
-    "humidity": "93%"
+    "temperature": "8.5 ºC",
+    "wind": "0.9 m/s",
+    "cloudiness": "cer partial noros",
+    "pressure": "1009.9 mb, in scadere",
+    "humidity": "32%"
   }
 }

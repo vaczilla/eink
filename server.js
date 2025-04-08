@@ -23,12 +23,12 @@ const { DateTime } = require("luxon");
 const dbFile = path.join(__dirname, "db.json");
 const GOOGLE_TRANSLATE_API_KEY = process.env.GOOGLE_TRANSLATE_API_KEY; // 🔒 Cheia este ascunsă în .env
 const TIMEZONE_DB_API_KEY = process.env.TIMEZONE_DB_API_KEY;
-const timeZoneApiKey = 'R4OWUVQWNWBS'; // Cheia API pentru TimeZoneDB
-const timeZoneUrl = `http://api.timezonedb.com/v2.1/get-time-zone?key=${timeZoneApiKey}&format=json&by=zone&zone=Europe/Bucharest`;
+const timeZoneUrl = `http://api.timezonedb.com/v2.1/get-time-zone?key=${process.env.TIMEZONE_API_KEY}&format=json&by=zone&zone=Europe/Bucharest`;
 const QRCode = require("qrcode");
 const programatorFilePath = 'programator.json';
 const dbFilePath = 'db.json'
 const LOG_PATH = path.join(__dirname, "log_esp.txt");
+const FIVE_DAYS_MS = 5 * 24 * 60 * 60 * 1000;
 
 
 
@@ -1519,25 +1519,42 @@ app.post("/generateQR", async (req, res) => {
 // ✅ Middleware ca să poți primi plain text
 app.use("/log", express.text());
 
-app.post("/log", (req, res) => {
+app.post("/log", async (req, res) => {
   const content = req.body;
 
   if (!content || content.trim() === "") {
     return res.status(400).send("No content received.");
   }
 
-  // Adăugăm timestamp
-  const logEntry = `[${new Date().toISOString()}]\n${content}\n\n`;
+  const now = new Date();
+  const newEntry = `[${now.toISOString()}]\n${content}\n\n`;
 
-  fs.appendFile(LOG_PATH, logEntry, (err) => {
-    if (err) {
-      console.error("Eroare la salvarea logului:", err);
-      return res.status(500).send("Eroare la scriere.");
+  try {
+    let updatedLogs = newEntry;
+
+    if (fs.existsSync(LOG_PATH)) {
+      const oldData = fs.readFileSync(LOG_PATH, "utf-8");
+
+      const entries = oldData
+        .split(/\n\n+/) // separăm pe intrări
+        .filter((entry) => entry.trim() !== "")
+        .filter((entry) => {
+          const match = entry.match(/^\[(.*?)\]/); // extragem timestampul
+          if (!match) return false;
+          const entryDate = new Date(match[1]);
+          return now - entryDate <= FIVE_DAYS_MS;
+        });
+
+      updatedLogs = entries.join("\n\n") + "\n\n" + newEntry;
     }
-    res.status(200).send("Log salvat cu succes!");
-  });
-});
 
+    fs.writeFileSync(LOG_PATH, updatedLogs);
+    res.status(200).send("Log salvat cu succes!");
+  } catch (err) {
+    console.error("Eroare la actualizarea logului:", err);
+    res.status(500).send("Eroare la scriere.");
+  }
+});
 
 // ✅ Middleware ca accesez xontinutul prin API
 app.get("/log", (req, res) => {

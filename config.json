@@ -3,8 +3,8 @@
   "alarmHour": 18,
   "alarmMinute": 46,
   "relativeAlarmMinutes": 3,
-  "lightSleepDuration": 360000000,
-  "deepSleepDuration": 360000000,
+  "lightSleepDuration": 900000000,
+  "deepSleepDuration": 900000000,
   "batteryCutoffHigh": 95,
   "batteryCutoffLow": 20
 }

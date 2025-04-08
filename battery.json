@@ -12308,5 +12308,60 @@
     "timestamp": "2025-04-08T14:30:31.108Z",
     "batteryLevel": 100,
     "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T15:01:38.814Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T15:33:24.338Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T16:04:42.240Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T16:36:00.347Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T17:07:20.005Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T17:38:37.947Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T18:09:56.135Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T18:41:04.766Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T19:12:23.074Z",
+    "batteryLevel": 99,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T19:32:57.633Z",
+    "batteryLevel": 100,
+    "isCharging": false
+  },
+  {
+    "timestamp": "2025-04-08T19:43:39.937Z",
+    "batteryLevel": 99,
+    "isCharging": false
   }
 ]

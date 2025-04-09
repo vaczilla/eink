@@ -274,12 +274,7 @@
     </form>
 
   </div>
-</div>
-
-        
-        
-        
-        
+</div>  
         
         <div style="width: 95%; max-width: 800px; margin: auto;">
           <canvas id="batteryChart"></canvas>
@@ -300,6 +295,20 @@
     </div>
     
     <script>
+ 
+        function showToast(message, type = "success") {
+    const toastContainer = document.getElementById("toastContainer");
+    const toast = document.createElement("div");
+    toast.classList.add("toast", "align-items-center", "show", "text-bg-" + type, "border-0");
+    toast.setAttribute("role", "alert");
+    toast.innerHTML = `
+      <div class="d-flex">
+        <div class="toast-body">${message}</div>
+        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"></button>
+      </div>`;
+    toastContainer.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
+  }
       
 document.addEventListener("DOMContentLoaded", function () {
   
@@ -348,19 +357,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .catch(() => showToast("Eroare de conexiune", "danger"));
   }
 
-  function showToast(message, type = "success") {
-    const toastContainer = document.getElementById("toastContainer");
-    const toast = document.createElement("div");
-    toast.classList.add("toast", "align-items-center", "show", "text-bg-" + type, "border-0");
-    toast.setAttribute("role", "alert");
-    toast.innerHTML = `
-      <div class="d-flex">
-        <div class="toast-body">${message}</div>
-        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"></button>
-      </div>`;
-    toastContainer.appendChild(toast);
-    setTimeout(() => toast.remove(), 3000);
-  }
+
 
   // Asignare evenimente butoanelor
   document.querySelector(".btn-primary:nth-of-type(1)").addEventListener("click", captureScreenshot);
@@ -518,7 +515,8 @@ async function fetchBatteryData(days = null) {
 fetchBatteryData();
       
       
- /////////////////////////////////////////////////////////////////////////////////   
+ /////////////////////////////////////////////////////////////////////////////////
+      
       
 async function updateTimeSinceLastEntry() {
     try {
@@ -526,7 +524,7 @@ async function updateTimeSinceLastEntry() {
         const data = await response.json();
         
         if (data.length === 0) {
-            document.getElementById("time-text").textContent = "-- min";
+            document.getElementById("time-text").textContent = "--";
             return;
         }
 
@@ -535,15 +533,24 @@ async function updateTimeSinceLastEntry() {
         const lastTimestamp = new Date(lastEntry.timestamp);
         const now = new Date();
 
-        // Calculăm diferența în minute
-        const diffMinutes = Math.floor((now - lastTimestamp) / (1000 * 60));
+        // Calculăm diferența
+        const diffMs = now - lastTimestamp;
+        const diffMinutes = Math.floor(diffMs / (1000 * 60));
+        const hours = Math.floor(diffMinutes / 60);
+
+        let timeText = "";
+        if (hours > 0) {
+            timeText = `${hours}h`;
+        } else {
+            timeText = `${diffMinutes} min`;
+        }
 
         // Afișăm timpul în pagină
-        document.getElementById("time-text").textContent = `${diffMinutes} min`;
+        document.getElementById("time-text").textContent = timeText;
 
     } catch (error) {
         console.error("Eroare la obținerea datelor bateriei:", error);
-        document.getElementById("time-text").textContent = "-- min";
+        document.getElementById("time-text").textContent = "--";
     }
 }
 
@@ -585,6 +592,10 @@ async function fetchVoltageData(days = null) {
             }
         }
 
+      
+
+      
+      
         async function renderChart(days = null) {
             const voltageData = await fetchVoltageData(days);
             const ctx = document.getElementById('voltageChart').getContext('2d');
@@ -631,24 +642,36 @@ async function fetchVoltageData(days = null) {
                 }
             });
         }
+
+ 
       
-            async function updateVoltageInfo() {
-            try {
-                const response = await fetch('/voltage/latest');
-                const data = await response.json();
-                
-                const lastTimestamp = new Date(data.timestamp);
-                const now = new Date();
-                const diffHours = Math.floor((now - lastTimestamp) / (1000 * 60 * 60));
-                
-                document.getElementById("voltage-time-text").textContent = `${diffHours} h`;
-                document.getElementById("voltage-value").textContent = `${data.voltage} V`;
-            } catch (error) {
-                console.error("Eroare la obținerea datelor voltajului:", error);
-                document.getElementById("voltage-time-text").textContent = "-- h";
-                document.getElementById("voltage-value").textContent = "-- V";
-            }
+async function updateVoltageInfo() {
+    try {
+        const response = await fetch('/voltage/latest');
+        const data = await response.json();
+        
+        const lastTimestamp = new Date(data.timestamp);
+        const now = new Date();
+        const diffMs = now - lastTimestamp;
+        
+        const diffMinutes = Math.floor(diffMs / (1000 * 60));
+        const hours = Math.floor(diffMinutes / 60);
+
+        let timeText = "";
+        if (hours > 0) {
+            timeText = `${hours}h`;  // doar orele
+        } else {
+            timeText = `${diffMinutes} min`;  // doar minutele
         }
+
+        document.getElementById("voltage-time-text").textContent = timeText;
+        document.getElementById("voltage-value").textContent = `${data.voltage} V`;
+    } catch (error) {
+        console.error("Eroare la obținerea datelor voltajului:", error);
+        document.getElementById("voltage-time-text").textContent = "--";
+        document.getElementById("voltage-value").textContent = "-- V";
+    }
+}
 
         renderChart();
         updateVoltageInfo();
@@ -675,54 +698,66 @@ async function fetchVoltageData(days = null) {
     }
   }
 
-  async function saveConfig(event) {
-    event.preventDefault();
+async function saveConfig(event) {
+  event.preventDefault();
 
-    const lightSleepMinutes = parseInt(document.getElementById('lightSleepDuration').value);
-    const deepSleepMinutes = parseInt(document.getElementById('deepSleepDuration').value);
-    const batteryCutoffHigh = parseInt(document.getElementById('batteryCutoffHigh').value);
-    const batteryCutoffLow = parseInt(document.getElementById('batteryCutoffLow').value);
+  const lightSleepMinutes = parseInt(document.getElementById('lightSleepDuration').value);
+  const deepSleepMinutes = parseInt(document.getElementById('deepSleepDuration').value);
+  const batteryCutoffHigh = parseInt(document.getElementById('batteryCutoffHigh').value);
+  const batteryCutoffLow = parseInt(document.getElementById('batteryCutoffLow').value);
 
-    const config = {
-      useRelativeAlarm: document.getElementById('useRelativeAlarm').checked,
-      alarmHour: parseInt(document.getElementById('alarmHour').value),
-      alarmMinute: parseInt(document.getElementById('alarmMinute').value),
-      relativeAlarmMinutes: parseInt(document.getElementById('relativeAlarmMinutes').value),
-      lightSleepDuration: lightSleepMinutes * 60 * 1_000_000,
-      deepSleepDuration: deepSleepMinutes * 60 * 1_000_000,
-      batteryCutoffHigh,
-      batteryCutoffLow
-    };
+  const config = {
+    useRelativeAlarm: document.getElementById('useRelativeAlarm').checked,
+    alarmHour: parseInt(document.getElementById('alarmHour').value),
+    alarmMinute: parseInt(document.getElementById('alarmMinute').value),
+    relativeAlarmMinutes: parseInt(document.getElementById('relativeAlarmMinutes').value),
+    lightSleepDuration: lightSleepMinutes * 60 * 1_000_000,
+    deepSleepDuration: deepSleepMinutes * 60 * 1_000_000,
+    batteryCutoffHigh,
+    batteryCutoffLow
+  };
 
+  try {
     const res = await fetch('/config', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(config)
     });
 
-    document.getElementById('status').textContent = res.ok ? 'Config salvat!' : 'Eroare la salvare';
+    if (res.ok) {
+      showToast("Configurația a fost salvată cu succes!", "success");
+    } else {
+      showToast("Eroare la salvarea configurației", "danger");
+    }
+  } catch (error) {
+    showToast("Eroare de conexiune la server", "danger");
   }
+}
+
 
   document.getElementById('config-form').addEventListener('submit', saveConfig);
   window.addEventListener('DOMContentLoaded', loadConfig);
   
   
-  async function sendBatteryUpdate(event) {
-    event.preventDefault();
+async function sendBatteryUpdate(event) {
+  event.preventDefault();
 
-    const level = parseInt(document.getElementById('batteryLevel').value);
-    const isCharging = document.getElementById('isCharging').checked ? 1 : 0;
+  const level = parseInt(document.getElementById('batteryLevel').value);
+  const isCharging = document.getElementById('isCharging').checked ? 1 : 0;
 
-    const url = `https://thundering-bony-melody.glitch.me/updateBattery?batteryLevel=${level}&isCharging=${isCharging}`;
+  const url = `https://thundering-bony-melody.glitch.me/updateBattery?batteryLevel=${level}&isCharging=${isCharging}`;
 
-    try {
-      const res = await fetch(url);
-      document.getElementById('battery-status').textContent =
-        res.ok ? 'Nivel baterie trimis!' : 'Eroare la trimitere';
-    } catch (err) {
-      document.getElementById('battery-status').textContent = 'Eroare la conectare';
+  try {
+    const res = await fetch(url);
+    if (res.ok) {
+      showToast('Nivelul bateriei a fost trimis cu succes!', 'success');
+    } else {
+      showToast('Eroare la trimiterea datelor bateriei!', 'danger');
     }
+  } catch (err) {
+    showToast('Eroare de conexiune cu serverul!', 'danger');
   }
+}
 
   document.getElementById('battery-form').addEventListener('submit', sendBatteryUpdate);
   

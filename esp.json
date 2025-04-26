@@ -9730,5 +9730,2289 @@
   {
     "timestamp": "2025-04-08T19:55:21.141Z",
     "voltage": 5.49
+  },
+  {
+    "timestamp": "2025-04-08T20:46:38.237Z",
+    "voltage": 5.49
+  },
+  {
+    "timestamp": "2025-04-08T21:08:17.537Z",
+    "voltage": 5.48
+  },
+  {
+    "timestamp": "2025-04-08T21:13:08.404Z",
+    "voltage": 5.48
+  },
+  {
+    "timestamp": "2025-04-08T22:13:08.504Z",
+    "voltage": 5.48
+  },
+  {
+    "timestamp": "2025-04-08T23:13:08.529Z",
+    "voltage": 5.48
+  },
+  {
+    "timestamp": "2025-04-09T00:13:08.763Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T01:13:08.619Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T02:13:08.633Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T03:13:08.641Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T04:13:08.731Z",
+    "voltage": 5.48
+  },
+  {
+    "timestamp": "2025-04-09T05:13:08.535Z",
+    "voltage": 5.48
+  },
+  {
+    "timestamp": "2025-04-09T06:13:08.607Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T07:13:08.587Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T08:13:08.641Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T09:13:08.838Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T10:13:08.753Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T11:13:08.961Z",
+    "voltage": 5.46
+  },
+  {
+    "timestamp": "2025-04-09T12:13:08.928Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T13:13:08.835Z",
+    "voltage": 5.46
+  },
+  {
+    "timestamp": "2025-04-09T14:13:09.247Z",
+    "voltage": 5.47
+  },
+  {
+    "timestamp": "2025-04-09T15:13:08.704Z",
+    "voltage": 5.45
+  },
+  {
+    "timestamp": "2025-04-09T16:13:08.828Z",
+    "voltage": 5.46
+  },
+  {
+    "timestamp": "2025-04-09T17:13:08.735Z",
+    "voltage": 5.46
+  },
+  {
+    "timestamp": "2025-04-09T18:13:08.735Z",
+    "voltage": 5.45
+  },
+  {
+    "timestamp": "2025-04-09T19:13:08.842Z",
+    "voltage": 5.45
+  },
+  {
+    "timestamp": "2025-04-09T20:13:08.737Z",
+    "voltage": 5.45
+  },
+  {
+    "timestamp": "2025-04-09T21:07:02.140Z",
+    "voltage": 5.46
+  },
+  {
+    "timestamp": "2025-04-09T21:08:34.481Z",
+    "voltage": 5.45
+  },
+  {
+    "timestamp": "2025-04-09T21:09:10.730Z",
+    "voltage": 5.46
+  },
+  {
+    "timestamp": "2025-04-09T21:12:30.536Z",
+    "voltage": 4.74
+  },
+  {
+    "timestamp": "2025-04-09T21:15:50.731Z",
+    "voltage": 4.73
+  },
+  {
+    "timestamp": "2025-04-09T21:19:10.585Z",
+    "voltage": 4.72
+  },
+  {
+    "timestamp": "2025-04-09T21:22:30.636Z",
+    "voltage": 4.71
+  },
+  {
+    "timestamp": "2025-04-09T21:25:50.429Z",
+    "voltage": 4.71
+  },
+  {
+    "timestamp": "2025-04-09T21:29:10.357Z",
+    "voltage": 4.73
+  },
+  {
+    "timestamp": "2025-04-09T21:32:30.343Z",
+    "voltage": 4.72
+  },
+  {
+    "timestamp": "2025-04-09T21:33:12.831Z",
+    "voltage": 5.44
+  },
+  {
+    "timestamp": "2025-04-09T21:35:20.830Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-09T21:38:41.536Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-09T21:42:10.833Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-09T21:45:31.630Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-09T21:51:17.967Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-09T21:59:51.044Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-09T22:02:08.729Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-09T22:07:03.459Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-09T22:08:16.154Z",
+    "voltage": 5.41
+  },
+  {
+    "timestamp": "2025-04-09T22:11:08.834Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-09T23:11:08.687Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-10T00:11:08.837Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-10T01:11:08.848Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-10T02:11:08.815Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-10T03:11:08.844Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-10T04:11:08.639Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-10T05:11:09.030Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-10T06:11:08.736Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-10T06:32:51.446Z",
+    "voltage": 5.43
+  },
+  {
+    "timestamp": "2025-04-10T06:36:12.667Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-10T06:39:34.138Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-10T06:42:55.036Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-10T06:46:16.761Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-10T06:49:38.034Z",
+    "voltage": 5.41
+  },
+  {
+    "timestamp": "2025-04-10T06:52:59.048Z",
+    "voltage": 5.42
+  },
+  {
+    "timestamp": "2025-04-10T06:56:20.236Z",
+    "voltage": 5.41
+  },
+  {
+    "timestamp": "2025-04-10T06:59:41.429Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T07:03:02.633Z",
+    "voltage": 5.41
+  },
+  {
+    "timestamp": "2025-04-10T07:06:23.766Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T07:09:44.938Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T07:13:06.039Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T07:16:39.236Z",
+    "voltage": 5.36
+  },
+  {
+    "timestamp": "2025-04-10T07:20:01.933Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T07:23:14.138Z",
+    "voltage": 5.38
+  },
+  {
+    "timestamp": "2025-04-10T07:26:36.228Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T07:29:57.432Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T07:33:23.653Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T07:36:12.434Z",
+    "voltage": 5.38
+  },
+  {
+    "timestamp": "2025-04-10T07:42:49.736Z",
+    "voltage": 5.39
+  },
+  {
+    "timestamp": "2025-04-10T07:43:56.416Z",
+    "voltage": 5.38
+  },
+  {
+    "timestamp": "2025-04-10T07:48:18.147Z",
+    "voltage": 5.39
+  },
+  {
+    "timestamp": "2025-04-10T07:53:08.450Z",
+    "voltage": 5.36
+  },
+  {
+    "timestamp": "2025-04-10T07:56:31.035Z",
+    "voltage": 5.38
+  },
+  {
+    "timestamp": "2025-04-10T07:59:53.144Z",
+    "voltage": 5.38
+  },
+  {
+    "timestamp": "2025-04-10T08:03:12.634Z",
+    "voltage": 5.39
+  },
+  {
+    "timestamp": "2025-04-10T08:06:16.143Z",
+    "voltage": 5.39
+  },
+  {
+    "timestamp": "2025-04-10T08:30:45.698Z",
+    "voltage": 5.41
+  },
+  {
+    "timestamp": "2025-04-10T08:31:08.364Z",
+    "voltage": 5.39
+  },
+  {
+    "timestamp": "2025-04-10T08:31:26.329Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T08:32:09.844Z",
+    "voltage": 5.39
+  },
+  {
+    "timestamp": "2025-04-10T08:35:34.742Z",
+    "voltage": 5.41
+  },
+  {
+    "timestamp": "2025-04-10T08:39:00.441Z",
+    "voltage": 5.4
+  },
+  {
+    "timestamp": "2025-04-10T08:40:13.653Z",
+    "voltage": 5.39
+  },
+  {
+    "timestamp": "2025-04-10T09:02:20.132Z",
+    "voltage": 5.38
+  },
+  {
+    "timestamp": "2025-04-10T09:02:53.539Z",
+    "voltage": 5.37
+  },
+  {
+    "timestamp": "2025-04-10T09:03:25.671Z",
+    "voltage": 5.37
+  },
+  {
+    "timestamp": "2025-04-10T09:03:48.539Z",
+    "voltage": 5.36
+  },
+  {
+    "timestamp": "2025-04-10T09:08:38.157Z",
+    "voltage": 5.37
+  },
+  {
+    "timestamp": "2025-04-10T10:07:15.002Z",
+    "voltage": 5.38
+  },
+  {
+    "timestamp": "2025-04-10T10:16:29.738Z",
+    "voltage": 5.37
+  },
+  {
+    "timestamp": "2025-04-10T10:18:23.138Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T10:25:13.835Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T10:28:38.929Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T10:29:23.557Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T10:34:55.339Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T10:37:26.077Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T10:45:15.489Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T10:53:15.147Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T10:56:36.334Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T11:00:09.043Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T11:03:30.164Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T11:27:48.632Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T11:33:16.337Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T11:37:14.541Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T11:42:11.949Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T11:52:14.036Z",
+    "voltage": 5.33
+  },
+  {
+    "timestamp": "2025-04-10T11:53:14.729Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T11:54:18.443Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T11:57:40.531Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T12:05:09.643Z",
+    "voltage": 5.35
+  },
+  {
+    "timestamp": "2025-04-10T12:08:30.958Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T12:09:06.740Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T12:10:12.739Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T12:10:48.038Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T12:11:55.039Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T12:14:15.636Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T12:16:14.347Z",
+    "voltage": 5.33
+  },
+  {
+    "timestamp": "2025-04-10T12:18:14.435Z",
+    "voltage": 5.33
+  },
+  {
+    "timestamp": "2025-04-10T12:20:11.533Z",
+    "voltage": 5.33
+  },
+  {
+    "timestamp": "2025-04-10T12:42:14.832Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T12:44:15.521Z",
+    "voltage": 5.33
+  },
+  {
+    "timestamp": "2025-04-10T12:46:15.728Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T12:48:13.383Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T12:50:13.130Z",
+    "voltage": 5.33
+  },
+  {
+    "timestamp": "2025-04-10T12:55:06.840Z",
+    "voltage": 5.33
+  },
+  {
+    "timestamp": "2025-04-10T13:08:21.825Z",
+    "voltage": 5.34
+  },
+  {
+    "timestamp": "2025-04-10T13:10:15.587Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T13:10:19.196Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T13:20:11.442Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T13:20:15.280Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T14:07:20.192Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:07:24.230Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T14:10:41.339Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:10:45.464Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:14:01.826Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:14:05.629Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T14:17:23.258Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:17:27.032Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T14:20:44.534Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:20:48.330Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T14:24:04.831Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:24:08.552Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:27:24.928Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:27:28.637Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T14:30:45.550Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T14:30:49.439Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T14:34:05.938Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:34:11.240Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T14:37:27.730Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:37:31.547Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T14:40:47.937Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:40:51.632Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T14:44:08.212Z",
+    "voltage": 5.32
+  },
+  {
+    "timestamp": "2025-04-10T14:44:12.037Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T14:47:28.388Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T14:47:32.151Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T14:50:48.867Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T14:50:52.830Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T14:54:09.533Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T14:54:13.339Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T14:57:30.843Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T14:57:34.555Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:00:50.791Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T15:00:54.648Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:04:19.031Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:04:22.835Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:06:15.337Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T15:06:19.237Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:09:35.445Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:09:39.235Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:12:56.319Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T15:13:00.082Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:16:16.529Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:16:20.337Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:19:36.938Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:19:40.747Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:22:57.238Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:23:00.958Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T15:26:17.971Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:26:22.831Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:29:39.036Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:46:15.942Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T15:49:32.711Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:49:36.882Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:52:52.451Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T15:52:56.275Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:56:13.158Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T15:56:17.049Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:59:33.929Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T15:59:37.731Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:02:54.631Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T16:02:58.846Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:06:15.646Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:06:19.737Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:09:35.848Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T16:09:39.671Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:12:56.139Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T16:12:59.959Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:16:16.638Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T16:16:21.537Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T16:19:38.216Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T16:19:42.345Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:22:58.855Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:23:02.758Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:26:20.232Z",
+    "voltage": 5.31
+  },
+  {
+    "timestamp": "2025-04-10T16:26:24.433Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:29:41.432Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T16:29:45.229Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T16:33:02.351Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:33:06.235Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:36:22.730Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T16:36:26.533Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T16:39:42.936Z",
+    "voltage": 5.3
+  },
+  {
+    "timestamp": "2025-04-10T16:39:47.034Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T16:43:03.943Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:43:07.729Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T16:46:23.938Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:46:27.830Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T16:49:44.237Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T16:49:48.020Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T16:53:03.889Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T16:53:07.638Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T16:56:23.733Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T16:56:27.740Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:59:44.733Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T16:59:48.539Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T17:03:05.540Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T17:03:09.339Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T17:06:26.436Z",
+    "voltage": 5.29
+  },
+  {
+    "timestamp": "2025-04-10T17:06:30.243Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T17:09:47.234Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T17:09:51.036Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T17:13:07.039Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:13:10.851Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:16:26.835Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T17:16:30.908Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:19:47.640Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:19:51.616Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T17:23:07.929Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:23:12.541Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T17:26:29.038Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:26:33.144Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:29:49.534Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-10T17:29:53.575Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T17:33:11.596Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:33:15.440Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:36:32.499Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:36:36.389Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T17:39:54.529Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:40:00.930Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T17:43:20.237Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:43:26.690Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T17:46:43.142Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:46:47.335Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:50:05.332Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:50:15.234Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-10T17:53:32.140Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-10T17:53:38.929Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T17:56:55.840Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T17:56:59.633Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:00:19.236Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T18:00:23.124Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:03:39.929Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:03:47.034Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:07:03.416Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T18:07:07.235Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:10:26.754Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T18:10:30.849Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:13:49.246Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T18:13:56.138Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:17:12.738Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:17:16.532Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:20:34.230Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:20:38.147Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:23:55.233Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:23:59.095Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:27:16.035Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T18:27:19.906Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:30:37.278Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-10T18:30:41.138Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-10T18:33:57.685Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T18:34:01.631Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:37:18.070Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T18:37:21.833Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:40:38.030Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:40:41.942Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:43:58.333Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:44:02.245Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:47:19.242Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:47:23.032Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:50:39.485Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:50:43.344Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:53:59.960Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-10T18:54:03.721Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T18:57:20.145Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T18:57:23.953Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T19:00:40.632Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T19:00:44.321Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T19:04:00.636Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T19:04:04.423Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T19:07:20.954Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T19:07:24.696Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T19:10:41.043Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-10T19:10:46.115Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T19:14:03.052Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T19:14:07.230Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T19:17:24.732Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T19:17:28.511Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T19:26:05.828Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T19:26:09.934Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T19:51:05.840Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T19:51:05.854Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-10T19:51:05.947Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T19:51:05.960Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-10T19:53:09.541Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T19:53:13.369Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-10T19:56:29.534Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T19:56:33.262Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-10T19:59:49.754Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T19:59:53.548Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T20:03:10.101Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T20:03:13.822Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-10T20:06:30.837Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T20:06:34.739Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-10T20:10:08.868Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T20:10:12.738Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-10T20:10:53.736Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T20:10:57.479Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-10T20:11:18.273Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T20:11:22.141Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-10T21:00:12.642Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T21:00:16.571Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T22:00:12.931Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T22:00:16.660Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T22:03:33.050Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T22:03:36.936Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-10T23:00:08.735Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-10T23:00:12.535Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-10T23:03:29.136Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-10T23:03:32.946Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T00:00:10.037Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T00:00:13.863Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T00:03:28.998Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T00:03:32.836Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-11T01:00:13.233Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T01:00:17.029Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T01:03:33.597Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T01:03:37.356Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T02:00:11.699Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T02:00:15.430Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T02:03:31.743Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T02:03:35.519Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T03:00:11.313Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T03:00:15.116Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T03:03:31.766Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T03:03:35.537Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T04:00:10.049Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-11T04:00:13.932Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T04:03:30.351Z",
+    "voltage": 5.27
+  },
+  {
+    "timestamp": "2025-04-11T04:03:34.191Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T05:00:14.729Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T05:00:20.130Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T05:03:37.431Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-11T05:03:41.155Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T06:00:08.333Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T06:00:12.142Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T06:03:29.349Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T06:03:33.249Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T07:00:12.837Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T07:00:16.794Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T07:03:32.585Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T07:03:36.354Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T08:00:12.099Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T08:00:16.130Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T08:03:32.358Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T08:03:36.134Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T09:00:11.635Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T09:00:15.327Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T09:03:31.638Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T09:03:35.433Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T10:00:08.737Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T10:00:12.481Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T10:03:28.944Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T10:03:32.769Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T11:00:29.232Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T11:00:33.034Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T11:03:49.341Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T11:03:53.151Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T12:00:08.247Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T12:00:11.934Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T12:03:28.271Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T12:03:32.134Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T13:00:12.458Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T13:00:16.247Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-11T13:03:32.153Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T13:03:36.336Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T14:00:08.736Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:00:12.529Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-11T14:03:28.938Z",
+    "voltage": 5.28
+  },
+  {
+    "timestamp": "2025-04-11T14:03:32.870Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T14:08:39.039Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T14:08:42.736Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T14:11:59.133Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T14:12:02.934Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:12:50.894Z",
+    "voltage": 5.26
+  },
+  {
+    "timestamp": "2025-04-11T14:12:54.849Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:15:16.009Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T14:15:20.155Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-11T14:18:13.534Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-11T14:18:17.207Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-11T14:21:12.339Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T14:21:16.129Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-11T14:24:15.054Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:24:18.792Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T14:30:12.142Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:30:15.945Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T14:35:15.638Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:35:19.329Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T14:40:11.432Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:40:15.333Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T14:45:13.131Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:45:17.040Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-11T14:50:12.446Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:50:16.235Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-11T14:55:11.144Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-11T14:55:14.987Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T15:55:12.233Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T15:55:16.039Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-11T16:10:12.440Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-11T16:10:16.120Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-11T19:29:51.637Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T19:29:56.037Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-11T19:44:47.532Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-11T19:44:51.336Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-12T19:29:45.295Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-12T19:29:49.034Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-12T19:44:47.243Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-12T19:44:51.036Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-12T20:00:15.966Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-12T20:00:18.632Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-12T20:02:53.552Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-12T20:02:57.432Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-12T21:03:14.690Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-12T21:03:18.634Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-12T21:18:16.537Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-12T21:18:20.342Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-13T06:29:53.756Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-13T06:29:57.539Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-13T06:44:55.492Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-13T06:44:59.256Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T06:29:54.145Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-14T06:29:58.047Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T06:44:57.461Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-14T06:45:01.213Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T06:49:42.138Z",
+    "voltage": 5.25
+  },
+  {
+    "timestamp": "2025-04-14T06:49:46.042Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T06:52:07.340Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-14T06:52:11.181Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T07:07:08.345Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T07:07:12.098Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T07:14:30.845Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-14T07:14:34.736Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T07:25:17.642Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-14T07:25:21.442Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T07:26:20.437Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T07:26:24.108Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T07:30:15.261Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-14T07:30:18.946Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T07:35:12.882Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-14T07:35:16.599Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T07:40:13.745Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-14T07:40:17.537Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T07:55:16.137Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T07:55:19.893Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T08:10:13.356Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T08:10:17.236Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T08:25:11.754Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-14T08:25:15.634Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T08:40:13.129Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T08:40:16.953Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T08:55:15.403Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T08:55:18.982Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T09:10:13.041Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T09:10:16.725Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T09:25:12.946Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T09:25:16.585Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T09:40:15.338Z",
+    "voltage": 5.24
+  },
+  {
+    "timestamp": "2025-04-14T09:40:19.153Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T09:55:13.739Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T09:55:17.558Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T10:10:15.049Z",
+    "voltage": 5.23
+  },
+  {
+    "timestamp": "2025-04-14T10:10:18.839Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T11:10:13.948Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T11:10:17.739Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T11:25:15.747Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T11:25:19.851Z",
+    "voltage": 5.18
+  },
+  {
+    "timestamp": "2025-04-14T12:09:51.970Z",
+    "voltage": 5.22
+  },
+  {
+    "timestamp": "2025-04-14T12:09:55.838Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T12:24:54.748Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T12:24:58.636Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T13:09:51.935Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T13:09:56.034Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T13:24:52.076Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T13:24:56.037Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T14:09:47.238Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T14:09:51.138Z",
+    "voltage": 5.19
+  },
+  {
+    "timestamp": "2025-04-14T14:24:47.253Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T14:24:50.846Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T15:08:49.708Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T15:08:53.475Z",
+    "voltage": 5.19
+  },
+  {
+    "timestamp": "2025-04-14T15:23:51.171Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T15:23:54.939Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T16:07:50.049Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T16:07:53.940Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T16:22:52.043Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T16:22:55.837Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T16:59:51.819Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T16:59:55.755Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T17:15:54.362Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T17:15:54.370Z",
+    "voltage": 5.18
+  },
+  {
+    "timestamp": "2025-04-14T17:18:49.935Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T17:18:53.742Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T18:19:15.416Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-14T18:19:19.238Z",
+    "voltage": 5.19
+  },
+  {
+    "timestamp": "2025-04-14T18:34:17.242Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-14T18:34:21.141Z",
+    "voltage": 5.19
+  },
+  {
+    "timestamp": "2025-04-15T10:34:45.449Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-15T10:34:49.353Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-15T13:07:15.746Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-15T13:07:19.840Z",
+    "voltage": 5.19
+  },
+  {
+    "timestamp": "2025-04-15T13:14:13.156Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-15T13:14:16.943Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-15T14:24:46.050Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-15T14:28:38.471Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-15T14:34:08.900Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-15T17:00:16.470Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-15T17:15:18.817Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-16T16:59:57.852Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-16T17:14:57.349Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-17T16:59:53.953Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-17T17:14:54.855Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-18T16:59:56.294Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-18T17:14:56.866Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-19T07:38:16.669Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-19T07:38:52.668Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-19T07:41:06.868Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-19T07:41:35.495Z",
+    "voltage": 5.21
+  },
+  {
+    "timestamp": "2025-04-19T07:42:13.978Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-19T07:42:41.833Z",
+    "voltage": 5.19
+  },
+  {
+    "timestamp": "2025-04-19T07:43:08.462Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-19T17:00:20.786Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-19T17:15:21.577Z",
+    "voltage": 5.19
+  },
+  {
+    "timestamp": "2025-04-20T16:59:55.764Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-20T17:14:56.677Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-21T16:59:57.069Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-21T17:14:57.143Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-22T16:59:53.757Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-22T17:14:55.247Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-23T16:59:59.267Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-23T17:14:59.378Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-24T16:59:57.264Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-24T17:14:57.044Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-25T16:59:55.510Z",
+    "voltage": 5.2
+  },
+  {
+    "timestamp": "2025-04-25T17:14:57.029Z",
+    "voltage": 5.2
   }
 ]

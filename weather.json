@@ -1,43 +1,43 @@
 {
   "weather": [
     {
-      "timestamp": "2025-04-08T19:56:05.933Z",
-      "temperature": "2 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/04_night.svg",
-      "windSpeed": "11  km/h",
-      "updateTime": "23:00",
-      "dayIcon": "https://static.meteoblue.com/assets/images/picto/01_iday.svg",
-      "maxTemp": "9°C",
-      "minTemp": "-2°C",
+      "timestamp": "2025-04-26T15:55:20.530Z",
+      "temperature": "16 °C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/07_day.svg",
+      "windSpeed": "26  km/h",
+      "updateTime": "19:00",
+      "dayIcon": "https://static.meteoblue.com/assets/images/picto/22_iday.svg",
+      "maxTemp": "19°C",
+      "minTemp": "7°C",
       "precipitation": "0-2",
-      "sunHours": "12h",
+      "sunHours": "6h",
       "precipitationProbabilities": [
+        "0%",
+        "0%",
         "65%",
-        "0%",
-        "0%",
-        "0%",
-        "0%",
-        "0%",
-        "0%",
-        "0%"
+        "65%",
+        "85%",
+        "90%",
+        "40%",
+        "20%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-04-08T19:56:06.560Z",
-    "minTemp": "1°C",
-    "maxTemp": "11°C",
-    "prognoza": "CER PARTIAL NOROS"
+    "timestamp": "2025-04-26T15:55:21.051Z",
+    "minTemp": "12°C",
+    "maxTemp": "18°C",
+    "prognoza": "CER VARIABIL"
   },
   "baneasa": {
-    "timestamp": "2025-04-08T19:56:08.940Z",
-    "updateTime": "08-04-2025 ora 22:00",
-    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/4.svg",
+    "timestamp": "2025-04-26T15:55:22.210Z",
+    "updateTime": "26-04-2025 ora 18:00",
+    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/5.svg",
     "phenomenon": "N/A",
-    "temperature": "5.5 ºC",
-    "wind": "2.5 m/s",
-    "cloudiness": "cer partial noros",
-    "pressure": "1009.8 mb, variabila",
-    "humidity": "56%"
+    "temperature": "18.3 ºC",
+    "wind": "4.0 m/s",
+    "cloudiness": "cer acoperit",
+    "pressure": "1002.9 mb, variabila",
+    "humidity": "62%"
   }
 }

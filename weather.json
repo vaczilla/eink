@@ -1,43 +1,43 @@
 {
   "weather": [
     {
-      "timestamp": "2025-04-11T05:01:08.139Z",
-      "temperature": "0 °C",
-      "svgIcon": "https://static.meteoblue.com/assets/images/picto/22_day.svg",
-      "windSpeed": "4  km/h",
-      "updateTime": "8:00",
-      "dayIcon": "https://static.meteoblue.com/assets/images/picto/20_iday.svg",
-      "maxTemp": "11°C",
-      "minTemp": "-4°C",
+      "timestamp": "2025-04-26T15:55:20.530Z",
+      "temperature": "16 °C",
+      "svgIcon": "https://static.meteoblue.com/assets/images/picto/07_day.svg",
+      "windSpeed": "26  km/h",
+      "updateTime": "19:00",
+      "dayIcon": "https://static.meteoblue.com/assets/images/picto/22_iday.svg",
+      "maxTemp": "19°C",
+      "minTemp": "7°C",
       "precipitation": "0-2",
-      "sunHours": "1h",
+      "sunHours": "6h",
       "precipitationProbabilities": [
         "0%",
         "0%",
-        "0%",
-        "0%",
-        "0%",
-        "0%",
-        "5%",
-        "40%"
+        "65%",
+        "65%",
+        "85%",
+        "90%",
+        "40%",
+        "20%"
       ]
     }
   ],
   "xml": {
-    "timestamp": "2025-04-11T05:01:08.284Z",
-    "minTemp": "0°C",
-    "maxTemp": "11°C",
-    "prognoza": "CER PARTIAL NOROS"
+    "timestamp": "2025-04-26T15:55:21.051Z",
+    "minTemp": "12°C",
+    "maxTemp": "18°C",
+    "prognoza": "CER VARIABIL"
   },
   "baneasa": {
-    "timestamp": "2025-04-11T05:01:10.054Z",
-    "updateTime": "11-04-2025 ora 08:00",
-    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/3.svg",
+    "timestamp": "2025-04-26T15:55:22.210Z",
+    "updateTime": "26-04-2025 ora 18:00",
+    "iconUrl": "https://www.meteoromania.ro/wp-content/plugins/meteo/img/icons/5.svg",
     "phenomenon": "N/A",
-    "temperature": "-1.6 ºC",
-    "wind": "1.9 m/s",
-    "cloudiness": "cer partial noros",
-    "pressure": "1003.9 mb, in scadere",
-    "humidity": "75%"
+    "temperature": "18.3 ºC",
+    "wind": "4.0 m/s",
+    "cloudiness": "cer acoperit",
+    "pressure": "1002.9 mb, variabila",
+    "humidity": "62%"
   }
 }

@@ -1,10 +1,10 @@
 {
   "useRelativeAlarm": false,
-  "alarmHour": 8,
+  "alarmHour": 20,
   "alarmMinute": 0,
-  "relativeAlarmMinutes": 30,
-  "lightSleepDuration": 180000000,
-  "deepSleepDuration": 180000000,
+  "relativeAlarmMinutes": 60,
+  "lightSleepDuration": 900000000,
+  "deepSleepDuration": 900000000,
   "batteryCutoffHigh": 95,
   "batteryCutoffLow": 20
 }
